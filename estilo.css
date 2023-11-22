@@ -1,0 +1,446 @@
+body {
+    color: black;
+    background-color: white;
+    transition: .3s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fundo {
+    background-color: white;
+    color: black;
+    transition: .3s;
+}
+
+.borda {
+    border: 1px solid black;
+}
+
+/*Botão Dark/Light*/
+
+.trilho {
+    width: 32px;
+    height: 18px;
+    background-color: #979797;
+    border-radius: 150px;
+    position: relative;
+    cursor: pointer;
+}
+
+.trilho .indicador {
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    border-radius: 50%;
+    transform: scale(.9);
+    position: absolute;
+    left: 0;
+    transition: .3s;
+    
+}
+
+.trilho.dark{
+    background-color: #979797;
+}
+
+.trilho.dark .indicador{
+    left: 14px;
+    background-color: white;
+}
+
+
+
+/*cor borda*/
+
+body.dark {
+    background-color: #2f3338;
+}
+
+body.dark nav{
+    background-color: #383b42;
+}
+
+body.dark .navbar-light .navbar-nav .nav-link{
+    color: white;
+}
+body.dark .navbar-light .navbar-brand{
+    color: white;
+}
+
+body.dark .fundo {
+    background-color: #2f3338;
+    color: rgb(255, 255, 255);
+}
+
+/*Parte container (foto/texto/botao)*/
+
+
+.wts { /*WHATSAPP*/
+    color: #000000;
+    transition: .4s;
+}
+
+body.dark .wts {
+    color: #147538;
+}
+
+.wts:hover {
+    color: #00ff5e;
+}
+
+body.dark .wts:hover {
+    color: #00ff5e;
+} /*/WHATSAPP*/
+
+.efeito-b {
+    -webkit-box-shadow: 3px -3px 0px -2px rgba(0,0,0,1);
+    -moz-box-shadow: 3px -3px 0px -2px rgba(0,0,0,1);
+    box-shadow: 3px -3px 0px -2px rgba(0,0,0,1);
+    transition: .6s;
+}
+
+body.dark .efeito-b:hover {
+    border: 1px solid white;
+    -webkit-box-shadow: 3px -3px 0px -2px rgba(0,0,0,1);
+    -moz-box-shadow: 3px -3px 0px -2px rgba(0,0,0,1);
+    box-shadow: 3px -3px 0px -2px rgba(0,0,0,1);
+    transition: .6s;
+}
+
+.efeito-foto {
+    -webkit-box-shadow: 7px -6px 0px -3px rgb(0, 0, 0);
+    -moz-box-shadow: 7px -6px 0px -3px rgb(0, 0, 0);
+    box-shadow: 7px -6px 0px -3px rgb(0, 0, 0);
+    transition: .6s;
+}
+
+body.dark .efeito-foto {
+    -webkit-box-shadow: 7px -6px 0px -3px rgb(255, 255, 255);
+    -moz-box-shadow: 7px -6px 0px -3px rgb(255, 255, 255);
+    box-shadow: 7px -6px 0px -3px rgb(255, 255, 255); 
+}
+
+body.dark .efeito-b{
+    -webkit-box-shadow: 3px -3px 0px -2px rgb(255, 255, 255);
+    -moz-box-shadow: 3px -3px 0px -2px rgb(255, 255, 255);
+    box-shadow: 3px -3px 0px -2px rgb(253, 253, 253);
+}
+
+/* tecnologias black/ligth */
+
+img {
+    width: 65px;
+}
+
+/* CSS TRANSITION*/
+
+.css img {
+    filter: grayscale(100%);
+}
+
+.css img:hover {
+    width: 75px;
+    transition: .4s;
+    filter: grayscale(0%);
+}
+
+/* HTML TRANSITION*/
+
+.html img {
+    filter: grayscale(100%);
+}
+
+.html img:hover {
+    width: 75px;
+    transition: .4s;
+    filter: grayscale(0%);
+}
+
+/* JS TRANSITION*/
+
+.js img {
+    filter: grayscale(100%);
+}
+
+.js img:hover {
+    width: 75px;
+    transition: .4s;
+    filter: grayscale(0%);
+}
+
+/* TS TRANSITION*/
+
+.ts img {
+    filter: grayscale(100%);
+}
+
+.ts img:hover {
+    width: 75px;
+    transition: .4s;
+    filter: grayscale(0%);
+}
+
+/* GIT TRANSITION*/
+
+.git img {
+    filter: grayscale(100%);
+}
+
+.git img:hover {
+    width: 75px;
+    transition: .4s;
+    filter: grayscale(0%);
+}
+
+/* botstrap TRANSITION*/
+
+.bot img {
+    filter: grayscale(100%);
+}
+
+.bot img:hover {
+    width: 75px;
+    transition: .4s;
+    filter: grayscale(0%);
+}
+
+/*Tooltip Links*/
+
+.toolflip-texto::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    border: 7px solid;
+    border-color: #000 #0000 #0000 #0000;
+}
+
+body.dark .toolflip-texto::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    border: 7px solid;
+    border-color: #eee #0000 #0000 #0000;
+}
+
+/*Media queries tooltip*/
+@media (max-width: 575.98px) { 
+    .toolflip-texto {
+        font-size: 15px;
+        font-weight: bold;
+        font-family: inherit;
+        position: absolute;
+        left: 70%;
+        top: 0;
+        transform: translateX(-50%);
+        background-color: #000;
+        color: #fff;
+        white-space: nowrap;
+        padding: 5px 7px;
+        border-radius: 7px;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s ease;
+    }
+    body.dark .toolflip-texto {
+        font-family: sans-serif;
+        position: absolute;
+        left: 70%;
+        top: 0;
+        transform: translateX(-50%);
+        background-color: #eeeeee;
+        color: #000000;
+        white-space: nowrap;
+        padding: 5px 7px;
+        border-radius: 7px;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s ease;
+    }
+ }
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .toolflip-texto {
+        font-size: 15px;
+        font-weight: bold;
+        font-family: inherit;
+        position: absolute;
+        left: 63%;
+        top: 0;
+        transform: translateX(-50%);
+        background-color: #000;
+        color: #fff;
+        white-space: nowrap;
+        padding: 5px 7px;
+        border-radius: 7px;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s ease;
+    }
+    body.dark .toolflip-texto {
+        font-family: sans-serif;
+        position: absolute;
+        left: 63%;
+        top: 0;
+        transform: translateX(-50%);
+        background-color: #eeeeee;
+        color: #000000;
+        white-space: nowrap;
+        padding: 5px 7px;
+        border-radius: 7px;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s ease;
+    }
+ }
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .toolflip-texto {
+        font-size: 15px;
+        font-weight: bold;
+        font-family: inherit;
+        position: absolute;
+        left: 45%;
+        top: 0;
+        transform: translateX(-50%);
+        background-color: #000;
+        color: #fff;
+        white-space: nowrap;
+        padding: 5px 7px;
+        border-radius: 7px;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s ease;
+    }
+    body.dark .toolflip-texto {
+        font-family: sans-serif;
+        position: absolute;
+        left: 45%;
+        top: 0;
+        transform: translateX(-50%);
+        background-color: #eeeeee;
+        color: #000000;
+        white-space: nowrap;
+        padding: 5px 7px;
+        border-radius: 7px;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s ease;
+    }
+ }
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .toolflip-texto {
+        font-size: 15px;
+        font-weight: bold;
+        font-family: inherit;
+        position: absolute;
+        left: 34%;
+        top: 0;
+        transform: translateX(-50%);
+        background-color: #000;
+        color: #fff;
+        white-space: nowrap;
+        padding: 5px 7px;
+        border-radius: 7px;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s ease;
+    }
+    body.dark .toolflip-texto {
+        font-family: sans-serif;
+        position: absolute;
+        left: 34%;
+        top: 0;
+        transform: translateX(-50%);
+        background-color: #eeeeee;
+        color: #000000;
+        white-space: nowrap;
+        padding: 5px 7px;
+        border-radius: 7px;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s ease;
+    }
+ }
+@media (min-width: 1200px) { 
+    .toolflip-texto {
+        font-size: 15px;
+        font-weight: bold;
+        font-family: inherit;
+        position: absolute;
+        left: 28.5%;
+        top: 0;
+        transform: translateX(-50%);
+        background-color: #000;
+        color: #fff;
+        white-space: nowrap;
+        padding: 5px 7px;
+        border-radius: 7px;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s ease;
+    }
+    body.dark .toolflip-texto {
+        font-family: sans-serif;
+        position: absolute;
+        left: 28.5%;
+        top: 0;
+        transform: translateX(-50%);
+        background-color: #eeeeee;
+        color: #000000;
+        white-space: nowrap;
+        padding: 5px 7px;
+        border-radius: 7px;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 1s ease;
+    }
+ }
+
+/*tooltip TS*/
+
+.ts:hover .toolflip-texto{
+    top: -75%;
+    visibility: visible;
+    opacity: 1;
+}
+
+/*tooltip css*/
+
+.css:hover .toolflip-texto{
+    top: -75%;
+    visibility: visible;
+    opacity: 1;
+}
+
+/*tooltip HTML*/
+
+.html:hover .toolflip-texto{
+    top: -75%;
+    visibility: visible;
+    opacity: 1;
+}
+
+/*tooltip JavaScript*/
+
+.js:hover .toolflip-texto{
+    top: -75%;
+    visibility: visible;
+    opacity: 1;
+}
+
+/*tooltip GIT*/
+
+.git:hover .toolflip-texto{
+    top: -75%;
+    visibility: visible;
+    opacity: 1;
+}
+
+/*tooltip Bootstrap*/
+
+.bot:hover .toolflip-texto{
+    top: -75%;
+    visibility: visible;
+    opacity: 1;
+}
