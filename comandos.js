@@ -1,5 +1,5 @@
-let trilho = document.getElementById('trilho')
-let body = document.querySelector('body')
+const trilho = document.getElementById('trilho')
+const body = document.querySelector('body')
 
 trilho.addEventListener('click', ()=>{
     trilho.classList.toggle('dark')
