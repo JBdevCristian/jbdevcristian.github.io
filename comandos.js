@@ -1,6 +1,8 @@
 const inputContainer = document.querySelector('input'); //selecionando Input
 const rootElement = document.documentElement; //Pegando informação do html
 
+
+
 window.onload = getTheme
 
 const lightTheme = { //definindo light

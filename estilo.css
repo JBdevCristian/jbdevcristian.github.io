@@ -189,17 +189,6 @@ img {
     filter: grayscale(0%);
 }
 
-/*Tooltip Links*/
-
-.toolflip-texto::before{
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 100%;
-    transform: translateX(-50%);
-    border: 7px solid;
-    border-color: #000 #0000 #0000 #0000;
-}
 
 
 /*Media queries tooltip*/
@@ -303,57 +292,3 @@ img {
     }
 
  }
-
-/*tooltip TS*/
-
-.nd:hover .toolflip-texto{
-    left: 45px;
-    top: -65%;
-    visibility: visible;
-    opacity: 1;
-}
-
-/*tooltip css*/
-
-.css:hover .toolflip-texto{
-    left: 53px;
-    top: -75%;
-    visibility: visible;
-    opacity: 1;
-}
-
-/*tooltip HTML*/
-
-.html:hover .toolflip-texto{
-    left: 53px;
-    top: -75%;
-    visibility: visible;
-    opacity: 1;
-}
-
-/*tooltip JavaScript*/
-
-.js:hover .toolflip-texto{
-    left: 50px;
-    top: -75%;
-    visibility: visible;
-    opacity: 1;
-}
-
-/*tooltip GIT*/
-
-.git:hover .toolflip-texto{
-    left: 53px;
-    top: -75%;
-    visibility: visible;
-    opacity: 1;
-}
-
-/*tooltip Bootstrap*/
-
-.bot:hover .toolflip-texto{
-    left: 50px;
-    top: -75%;
-    visibility: visible;
-    opacity: 1;
-}
