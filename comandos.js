@@ -9,12 +9,17 @@ const lightTheme = { //definindo light
     '--background-color': '#ffffff',
     '--color': '#1A1A1A',
     '--box-shadow': '#000000',
+    '--texto-card': 'black',
+    '--fundo-card': '#F7F7F7',
+   
 }
 
 const darkTheme = { //definindo darkmode
-    '--background-color': '#2f3338',
+    '--background-color': '#1C2833',
     '--color': '#ffffff',
     '--box-shadow': '#ffffff',
+    '--texto-card': 'white',
+    '--fundo-card': '#5B6068',
 }
 
 inputContainer.addEventListener('change', function(){ //alterando valores html
