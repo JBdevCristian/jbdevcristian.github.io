@@ -6,6 +6,8 @@
     
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
     <title>Portfolio Cristian</title>
 </head>
 <body>
@@ -29,16 +31,16 @@
         <div class="collapse  navbar-collapse" id="sanduiche">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a href="" class="nav-link" data-toggle="modal" data-target="#exampleModalCenter">Sobre mim</a>
+                    <a href="" class="nav-link">Sobre mim</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link" data-toggle="modal" data-target="#exampleModalCenter">Projetos</a>
+                    <a href="" class="nav-link">Projetos</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link" data-toggle="modal" data-target="#exampleModalCenter">Habilidades</a>
+                    <a href="" class="nav-link">Habilidades</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" class="nav-link" data-toggle="modal" data-target="#exampleModalCenter">Contatos</a>
+                    <a href="" class="nav-link">Contatos</a>
                 </li>
             </ul>
         </div>
@@ -59,7 +61,7 @@
                         <h5>Desenvolvedor Full Stack Junior</h5>
                     </div>
                 <div class="pt-3">
-                    <button class="btn btn-dark btn-md efeito-b" data-toggle="modal" data-target="#exampleModalCenter">Meus Projetos</button>
+                    <a class="btn btn-dark" href="">Meus Projetos</a>
                     <a href="https://wa.me/qr/KRWM34RZD6WLL1" class="wts">
                         <i class="fa-brands fa-whatsapp ms-3 fa-xl"></i>
                     </a>
@@ -127,31 +129,10 @@
             </div>  <!-- /Logos -->
     </div>
 
-
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                <h5 class="modal-title text-danger" id="exampleModalLongTitle">Atenção!!</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                </div>
-                <div class="modal-body">
-                    <p class="text-dark">Portfólio ainda está em desenvolvimento...</p>
-                </div>
-                <div class="modal-footer">
-                <button type="button" class="btn btn-dark" data-dismiss="modal">Fechar</button>
-                </div>
-            </div>
-            </div>
-        </div>
-
         <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
-    	<script src="comandos.js"></script>
     	<script src="https://kit.fontawesome.com/6173e4b356.js" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="comandos.js"></script>
 
         <script>
             const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')

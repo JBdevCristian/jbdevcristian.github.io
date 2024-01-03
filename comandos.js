@@ -57,3 +57,17 @@ function isThemeEqual(firstTheme, secondTheme) {
 
     return true
 }
+
+//Adicionando POP up no site para notificar o andamento...
+addEventListener("click", testando())
+
+function testando() {
+    document.getElementsByTagName("a")
+    
+    Swal.fire({
+    icon: "error",
+    title: "Atenção",
+    text: "Portfolio ainda em desenvolvimento...",
+    });
+
+}
