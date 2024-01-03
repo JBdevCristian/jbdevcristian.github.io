@@ -31,6 +31,52 @@ body {
     color: var(--color);
 }
 
+/* botão css ===================== */
+
+input[type=checkbox] {
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 40px;
+	height: 18px;
+	background: grey;
+	float: right;
+	border-radius: 100px;
+	position: relative;
+}
+
+label::after {
+	content: '';
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	width: 13px;
+	height: 13px;
+	background-color: white;
+	border-radius: 90px;
+	transition: 0.6s;
+}
+
+input:checked + label {
+	background-color: gray;
+}
+
+input:checked + label:after {
+	left: calc(100% - 3px);
+	transform: translateX(-100%);
+}
+
+label:active:after {
+	width: 45px;
+}
+
+/* Botão CSS ===== */
+
 
 
 /*Parte container (foto/texto/botao)*/
@@ -166,8 +212,8 @@ img {
         left: 70%;
         top: 0;
         transform: translateX(-50%);
-        background-color: var(--background-color);
-        color: var(--color);
+        background-color: #000;
+        color: #fff;
         white-space: nowrap;
         padding: 5px 7px;
         border-radius: 7px;
@@ -270,6 +316,7 @@ img {
 /*tooltip css*/
 
 .css:hover .toolflip-texto{
+    left: 53px;
     top: -75%;
     visibility: visible;
     opacity: 1;
@@ -278,6 +325,7 @@ img {
 /*tooltip HTML*/
 
 .html:hover .toolflip-texto{
+    left: 53px;
     top: -75%;
     visibility: visible;
     opacity: 1;
@@ -286,6 +334,7 @@ img {
 /*tooltip JavaScript*/
 
 .js:hover .toolflip-texto{
+    left: 50px;
     top: -75%;
     visibility: visible;
     opacity: 1;
@@ -294,6 +343,7 @@ img {
 /*tooltip GIT*/
 
 .git:hover .toolflip-texto{
+    left: 53px;
     top: -75%;
     visibility: visible;
     opacity: 1;
@@ -302,6 +352,7 @@ img {
 /*tooltip Bootstrap*/
 
 .bot:hover .toolflip-texto{
+    left: 50px;
     top: -75%;
     visibility: visible;
     opacity: 1;
