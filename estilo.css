@@ -2,6 +2,8 @@
     --background-color: white;
     --color: #000000;
     --box-shadow: #000000;
+    --texto-card: black;
+    --fundo-card: #F7F7F7;
 }
 
 body {
@@ -291,4 +293,44 @@ img {
         transition: opacity 1s ease;
     }
 
+  }
+ 
+  /* Sobre mim */
+ .fundoSobre {
+     background-color: var(--fundo-card);
+     color: var(--texto-card);
+     transition: .4s;
+     border-radius: 10px;
+     box-shadow: 0 0 3px 0.5px #1B2631;
  }
+ 
+ .fundoSobre p{
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+ }
+ 
+ /*Estilizando cards*/
+ .cardP p {
+   font-size: 14px;
+
+ }
+ 
+ .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    color: var(--texto-card);
+    word-wrap: break-word;
+    background-color: var(--fundo-card);
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+    box-shadow: 0 0 3px 0.5px #1B2631;
+    transition: .4s;
+ 
+} 
