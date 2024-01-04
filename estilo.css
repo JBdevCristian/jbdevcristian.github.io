@@ -312,7 +312,7 @@ img {
  }
  
  .fundoSobre p{
-  font-size: 20px;
+  font-size: 17px;
   padding-right: 25px;
   padding-left: 25px;
   margin-top: 25px;
@@ -338,6 +338,14 @@ img {
     transition: .4s;
 
  
+}
+
+.card h5 {
+  font-size: 16px;
+}
+
+.card p {
+  font-size: 15px;
 }
 
 
@@ -370,6 +378,7 @@ img {
 
 /*Fundo experiencias*/
 .fundoExperiencias{
+  padding-left: 10px;
   background-color: var(--bg-fundoEX);
   border-radius: 10px;
   box-shadow: inset 0 0 25px 4px var(--sombra-FEX);
