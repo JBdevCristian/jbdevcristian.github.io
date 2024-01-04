@@ -11,6 +11,8 @@ const lightTheme = { //definindo light
     '--box-shadow': '#000000',
     '--texto-card': 'black',
     '--fundo-card': '#F7F7F7',
+    '--bg-fundoEX': '#fafafa',
+    '--sombra-FEX': '#bfbdbd',
    
 }
 
@@ -20,6 +22,8 @@ const darkTheme = { //definindo darkmode
     '--box-shadow': '#ffffff',
     '--texto-card': 'white',
     '--fundo-card': '#5B6068',
+    '--bg-fundoEX': '#1e2630',
+    '--sombra-FEX': '#12171c',
 }
 
 inputContainer.addEventListener('change', function(){ //alterando valores html
@@ -64,9 +68,9 @@ function isThemeEqual(firstTheme, secondTheme) {
 }
 
 //Adicionando POP up no site para notificar o andamento...
-addEventListener("click", testando())
+addEventListener("click", atencao())
 
-function testando() {
+function atencao() {
     document.getElementsByTagName("a")
     
     Swal.fire({
