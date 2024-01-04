@@ -313,10 +313,6 @@ img {
  }
  
  /*Estilizando cards*/
- .cardP p {
-   font-size: 14px;
-
- }
  
  .card {
     position: relative;
@@ -330,7 +326,7 @@ img {
     background-clip: border-box;
     border: var(--bs-card-border-width) solid var(--bs-card-border-color);
     border-radius: var(--bs-card-border-radius);
-    box-shadow: 0 0 3px 0.5px #1B2631;
+    box-shadow: 0 0 2px 0.5px #15181c;
     transition: .4s;
  
 } 
