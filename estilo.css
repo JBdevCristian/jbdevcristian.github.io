@@ -13,6 +13,10 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+a {
+    color: var(--color);
+}
+
 .fundo {
     background-color: var(--background-color);
     color: var(--color);
@@ -329,4 +333,27 @@ img {
     box-shadow: 0 0 2px 0.5px #15181c;
     transition: .4s;
  
-} 
+}
+
+/*Estilizando modal*/
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: var(--color);
+    pointer-events: auto;
+    background-color: var(--fundo-card);
+    background-clip: padding-box;
+    border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+    border-radius: var(--bs-modal-border-radius);
+    outline: 0;
+
+}
+
+/*Estilizando links*/
+.link-underline-dark {
+    --bs-link-underline-opacity: 1;
+    -webkit-text-decoration-color: var(--background-color);
+    text-decoration-color: var(--background-color);
+}
