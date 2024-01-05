@@ -94,22 +94,45 @@ label:active:after {
 .wts {
     color: var(--color);
     transition: .4s;
+    text-decoration: none;
 }
-
-
 
 .wts:hover {
     color: #00ff5e;
 }
 
-
-
-.efeito-b {
-    -webkit-box-shadow: 3px -3px 0px -2px var(--box-shadow);
-    -moz-box-shadow: 3px -3px 0px -2px var(--box-shadow);
-    box-shadow: 3px -3px 0px -2px var(--box-shadow);
-    transition: .6s;
+.git-l {
+    color: var(--color);
+    transition: .4s;
+    text-decoration: none;
 }
+
+.git-l:hover {
+    color: #FD6C4D;
+}
+
+.linkedin {
+    color: var(--color);
+    transition: .4s;
+    text-decoration: none;
+}
+
+.linkedin:hover {
+    color: #4DA5FD;
+}
+
+.inst-l {
+    color: var(--color);
+    transition: .4s;
+    text-decoration: none;
+}
+
+.inst-l:hover {
+    color: #FE4C4C;
+}
+
+
+
 
 .efeito-foto {
     -webkit-box-shadow: 7px -6px 0px -3px var(--box-shadow);
