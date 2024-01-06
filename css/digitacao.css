@@ -1,0 +1,14 @@
+.digitacao {
+    display: block;
+    font-family: monospace;
+    border-right: 2px solid;
+    animation: piscando 0.5s infinite step-end alternate;
+}
+
+
+@keyframes piscando {
+    25% {
+        border-color: transparent;
+    }
+}
+
