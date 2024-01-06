@@ -84,7 +84,13 @@ label:active:after {
 	width: 45px;
 }
 
-/* Botão CSS ===== */
+
+/*Apresentação*/
+
+.apresentacao {
+    padding-top: 190px;
+    padding-bottom: 210px;
+}
 
 
 
@@ -338,7 +344,7 @@ img {
   font-size: 17px;
   padding-right: 25px;
   padding-left: 25px;
-  margin-top: 25px;
+  margin-top: 10px;
   margin-bottom: 25px;
 
  }
