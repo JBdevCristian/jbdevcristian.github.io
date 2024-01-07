@@ -1,3 +1,21 @@
+
+/*Apresentação*/
+
+.apresentacao {
+    padding-top: 200px;
+    padding-bottom: 310px;
+}
+
+.apresentacao h5 {
+    padding-bottom: 20px;
+}
+
+.apresentacao p {
+    padding-top: 30px;
+}
+
+/* Efeito de texto*/
+
 .digitacao {
     font-family: monospace;
     border-right: 2px solid;
