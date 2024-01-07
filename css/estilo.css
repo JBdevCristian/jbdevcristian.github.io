@@ -40,7 +40,7 @@ a {
     color: var(--color);
 }
 
-/* botão css ===================== */
+/* DarkMode */
 
 input[type=checkbox] {
 	height: 0;
@@ -94,7 +94,8 @@ label:active:after {
 
 
 
- /*WHATSAPP*/
+ /*Links perfil*/
+ 
 .wts {
     color: var(--color);
     transition: .4s;
@@ -134,6 +135,8 @@ label:active:after {
 .inst-l:hover {
     color: #FE4C4C;
 }
+
+/*/Links perfil*/
 
 
 
