@@ -15,114 +15,6 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
- /*Links perfil*/
- 
-.wts {
-    color: var(--color);
-    transition: .4s;
-    text-decoration: none;
-}
-
-.wts:hover {
-    color: #00ff5e;
-}
-
-.git-l {
-    color: var(--color);
-    transition: .4s;
-    text-decoration: none;
-}
-
-.git-l:hover {
-    color: #FD6C4D;
-}
-
-.linkedin {
-    color: var(--color);
-    transition: .4s;
-    text-decoration: none;
-}
-
-.linkedin:hover {
-    color: #4DA5FD;
-}
-
-.inst-l {
-    color: var(--color);
-    transition: .4s;
-    text-decoration: none;
-}
-
-.inst-l:hover {
-    color: #FE4C4C;
-}
-
-/*/Links perfil*/
-
-
-
-
-.efeito-foto {
-    -webkit-box-shadow: 7px -6px 0px -3px var(--box-shadow);
-    -moz-box-shadow: 7px -6px 0px -3px var(--box-shadow);
-    box-shadow: 7px -6px 0px -3px var(--box-shadow);
-    transition: .6s;
-}
-
-
- 
-  /* Sobre mim */
- .fundoSobre {
-     background-color: var(--fundo-card);
-     color: var(--texto-card);
-     transition: .4s;
-     border-radius: 10px;
-     box-shadow: 0 0 3px 0.5px #1B2631;
- }
- 
- .fundoSobre p{
-  font-size: 17px;
-  padding-right: 25px;
-  padding-left: 25px;
-  margin-top: 10px;
-  margin-bottom: 25px;
-
- }
- 
- /*Estilizando cards*/
- 
- .card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    height: var(--bs-card-height);
-    color: var(--texto-card);
-    word-wrap: break-word;
-    background-color: var(--fundo-card);
-    background-clip: border-box;
-    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
-    border-radius: var(--bs-card-border-radius);
-    box-shadow: 0 0 2px 0.5px #15181c;
-    transition: .4s;
-
- 
-}
-
-.card h5 {
-  font-size: 16px;
-}
-
-.card p {
-  font-size: 15px;
-}
-
-
-.card:hover {
-    background-color: #aaaaaa;
-}
-
 /*Estilizando modal*/
 .modal-content {
     position: relative;
@@ -146,36 +38,11 @@ body {
   background-color: var(--bg-fundoEX);
   border-radius: 10px;
   box-shadow: inset 0 0 25px 4px var(--sombra-FEX);
+  animation: .3s;
 
 }
 
-/*apple*/
-.vermelho {
-  height: 10px;
-  width: 10px;
-  background-color: #FD6161;
-  border: 1px solid #636363;
-  border-radius: 50%;
-  display: inline-block;
-}
 
-.amarelo {
-  height: 10px;
-  width: 10px;
-  background-color: #F5DA5D;
-  border: 1px solid #636363;
-  border-radius: 50%;
-  display: inline-block;
-}
-
-.verde {
-  height: 10px;
-  width: 10px;
-  background-color: #58DB54;
-  border: 1px solid #636363;
-  border-radius: 50%;
-  display: inline-block;
-}
 
 
 
