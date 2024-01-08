@@ -27,3 +27,31 @@
     border-radius: 50%;
     display: inline-block;
   }
+
+  .imagem {
+    width: 275px;
+  }
+
+  @media (min-width: 300px) { 
+    .imagem {
+      width: 320px;
+    }
+ }
+
+ @media (min-width: 800px) { 
+    .imagem {
+      width: 125px;
+    }
+  }
+
+ @media (min-width: 1000px) { 
+  .imagem {
+    width: 198px;
+    }
+  }
+
+  @media (min-width: 1400px) { 
+    .imagem {
+      width: 275px;
+      }
+   }
