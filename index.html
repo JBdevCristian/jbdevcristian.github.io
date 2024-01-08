@@ -61,7 +61,7 @@
 
     <div class="container mt-1"> <!-- Cabeçalho -->
         
-        <div class="row row-cols-1 row-cols-md-3 justify-content-center pt-5">
+        <div class="row row-cols-1 row-cols-md-3 justify-content-around pt-5">
 
           <div class="col ms-5"> <!-- foto perfil-->
             <img class="rounded-circle efeito-foto" style="width: 325px; height: 350px;" src="Img/perfil1.png">
@@ -172,8 +172,8 @@
       
       <div class="row d-flex mt-5 justify-content-around text-center">
         
-
-          <div class="card col-3 align-middle d-none d-md-block">
+      <div class="col-3">
+          <div class="card d-none d-md-block">
             <div class="card-body">
             <i class="fa-solid fa-plane fs-4 mt-1"></i>
             
@@ -184,9 +184,10 @@
                 </p>
             </div>
           </div>
+      </div>
 
-        
-          <div class="card col-4 align-middle d-none d-md-block">
+        <div class="col-4">
+          <div class="card d-none d-md-block">
             <div class="card-body">
             <i class="fa-brands fa-github fs-4"></i>
               <h1 class="fs-5 mt-1"><strong>Git e Open Source</strong></h1>
@@ -196,9 +197,11 @@
               </p>
             </div>
           </div>
+        </div>  
 
           
-          <div class="card col-3 align-middle d-none d-md-block">
+        <div class="col-3">  
+          <div class="card d-none d-md-block">
             <div class="card-body">
             <i class="fa-regular fa-lightbulb fs-4"></i>
               <h1 class="fs-5 mt-1"><strong>Aprendizado Continuo.</strong></h1>
@@ -208,6 +211,7 @@
               </p>
             </div>
           </div>
+        </div>  
         
         </div>
     </div>
@@ -215,7 +219,7 @@
     <div class="container mt-5">
       
       
-      <div class="row row-cols-3">  <!-- Sobre mim/ experiencias -->
+      <div class="row row-cols-3 justify-content-center">  <!-- Sobre mim/ experiencias -->
         
         <div class="col-12 col-lg-6  ">
           
@@ -230,63 +234,75 @@
               </div>
             </div>
 
-              <div class="col"> <!-- quadrados -->
+              <div class="col justify-content-center mb-3"> <!-- quadrados -->
               
-                <div class="row row-cols-2 row-cols-md-3 g-2 g-lg-3 text-center justify-content-around">
+                <div class="row row-cols-2 row-cols-md-3 g-2 g-lg-2 text-center">
                   
-                  <div class="card col align-middle">
+                <div class="col">
+                  <div class="card" style="width: 11rem;">
                     <div class="card-body">
                       <i class="fa-solid fa-comment"></i>
-                    <h5 class="fs-5">Comunicativo</h5>
+                    <h5 class="card-title">Comunicativo</h5>
                     <hr>
-                    <p class="mt-3">Comunico ideias de forma clara e eficaz, facilitando colaborações em equipe.</p>
+                    <p class="card-text">Comunico ideias de forma clara e eficaz, facilitando colaborações em equipe.</p>
                     </div>
                   </div> 
-                  
-                  <div class="card col align-middle">
+                </div>   
+               
+               <div class="col"> 
+                  <div class="card" style="width: 11rem;">
                     <div class="card-body">
                       <i class="fa-solid fa-fingerprint"></i>
-                      <h5 class="fs-5">Criativo</h5>
+                      <h5 class="card-title">Criativo</h5>
                       <hr>
-                      <p>Aplico soluções inovadoras, garantindo designs front-end únicos e funcionais.</p>
+                      <p class="card-text">Aplico soluções inovadoras, garantindo designs front-end únicos e funcionais.</p>
                     </div>
                   </div> 
-                  
-                  <div class="card col align-middle">
+                </div>  
+                
+                <div class="col">  
+                  <div class="card" style="width: 11rem;">
                     <div class="card-body">
                       <i class="fa-solid fa-hourglass-start"></i>
-                      <h5 class="fs-5">Pontual</h5>
+                      <h5 class="card-title">Pontual</h5>
                       <hr>
-                      <p>Sempre buscando realizar a entrega do serviço solicitado no prazo acordado</p>
+                      <p class="card-text">Sempre buscando realizar a entrega do serviço solicitado no prazo acordado</p>
                     </div>
                   </div>
-                  
-                  <div class="card col align-middle">
+                </div>  
+                
+                <div class="col">  
+                  <div class="card" style="width: 11rem;">
                     <div class="card-body">
                       <i class="fa-solid fa-book"></i>
-                      <h5 class="fs-5">Autodidata</h5>
+                      <h5 class="card-title">Autodidata</h5>
                       <hr>
-                      <p class="mt-4">Aprendizado independente e adaptabilidade constante.</p>
+                      <p class="card-text">Aprendizado independente e adaptabilidade constante.</p>
                     </div>
                   </div>
-                  
-                  <div class="card col align-middle">
+                </div>
+                
+                <div class="col">  
+                  <div class="card" style="width: 11rem;">
                     <div class="card-body">
                       <i class="fa-solid fa-person-running"></i>
-                      <h5 class="">Especialista em Desafios</h5>
+                      <h5 class="card-title">Especialista em Desafios</h5>
                       <hr>
-                      <p>Habilidoso em identificar desafios e encontrar soluções eficazes de forma criativa e analítica.</p>
+                      <p class="card-text">Habilidoso em identificar desafios e encontrar soluções eficazes de forma criativa e analítica.</p>
                     </div>
                   </div>
-                  
-                  <div class="card col align-middle">
+                </div>
+                
+                <div class="col">  
+                  <div class="card" style="width: 11rem;">
                     <div class="card-body">
                       <i class="fa-solid fa-dumbbell"></i>
-                      <h5 class="fs-5">Consistente</h5>
+                      <h5 class="card-title">Consistente</h5>
                       <hr>
-                      <p>Com consistência, domino HTML, CSS e JavaScript, entregando designs atualizados e eficazes.</p>
+                      <p class="card-text">Com consistência, domino HTML, CSS e JavaScript, entregando designs atualizados e eficazes.</p>
                     </div>
                   </div>
+                </div>
                   
                 </div>
                 
@@ -295,8 +311,8 @@
               
           </div>
 
-          <div class="col-6 d-none d-lg-block"> <!-- experiencias -->
-             <div class="fundoExperiencias d-none d-lg-block" style="padding-bottom: 100%;">
+          <div class="col-12 col-lg-6 pt-1"> <!-- experiencias -->
+             <div class="fundoExperiencias" style="padding-bottom: 100%;">
              
             <div class="row">
               
@@ -329,79 +345,70 @@
     <div class="container mt-4">
       
         <h2 class="pt-3 ps-3">Projetos</h2>
-      
-          <div class="mt-5 row row-cols-1 row-cols-md-4 justify-content-around g-3">
-                  
-                  <div class="card col"> <!-- parte do card  -->
-                    <div class="card-body row">
-                      
-                      <div class="fixed"> <!-- parte do iphone -->
-                     
-                      <span class="vermelho"></span>
-                      <span class="amarelo"></span>
-                      <span class="verde"></span>
-                      
-                      </div> <!-- /parte do iphone -->
-
-                      <div class=" mt-4">
-                        <img class="imagem" src="projetos/CloneSpotify/pSpotify.png" alt="">
-                      </div>
-
-                      <div class=" mt-4">
-                        <p>Projeto clone Spotify para botar em prática aquilo que foi aprendido nos meus estudos em HTML, CSS e BOOTSTRAP</p>
-                      </div>
-
-                      <div class="mb-3">
-                        <i class="fa-brands fa-html5 fs-3 me-2"></i>
-                        <i class="fa-brands fa-css3-alt fs-3 me-2"></i>
-                        <i class="fa-brands fa-bootstrap fs-3"></i>
-                      </div>
-
-                      <div class="row">
-                        <div class="col">
-                        <a href="https://github.com/JBdevCristian/CloneSpotify" class="btn btn-secondary" target="_blank" >Repositorio</a>
-                      </div>
-                    <div class="col">
-                        <a href="projetos/CloneSpotify/index.html" target="_blank" class="btn btn-secondary">Projeto</a>
-                      </div>
-                      </div>
-                      
-                      
-                      </div>
-                  </div> <!-- /parte do card  -->
-                  
-                  <div class="card col"> <!-- parte do card  -->
+      <hr />
+          <div class="row row-cols-1 row-cols-lg-3 g-2 g-lg-5">
+            
+            <div class="col">
+                  <div class="card"> <!--Inicio card -->
+                    <img src="projetos/CloneSpotify/pSpotify.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      
-                      <div> <!-- parte do iphone -->
-                     
-                      <span class="vermelho"></span>
-                      <span class="amarelo"></span>
-                      <span class="verde"></span>
-                      
-                      </div> <!-- /parte do iphone -->
-                      
-                      
-                      
-                      </div>
-                  </div> <!-- /parte do card  -->
-
-                  <div class="card col"> <!-- parte do card  -->
-                    <div class="card-body">
-                      
-                      <div> <!-- parte do iphone -->
-                     
-                      <span class="vermelho"></span>
-                      <span class="amarelo"></span>
-                      <span class="verde"></span>
-                      
-                      </div> <!-- /parte do iphone -->
-                      
-                      
-                      
-                      </div>
-                  </div> <!-- /parte do card  -->
+                      <p class="card-text">Projeto clone Spotify criado do zero visando botar em prática design responsivo aprendido nos meus estudos.</p>
+    
+                          <div class="">
+                            <i class="fa-brands fa-html5 fs-3 me-2"></i>
+                            <i class="fa-brands fa-css3-alt fs-3 me-2"></i>
+                            <i class="fa-brands fa-bootstrap fs-3"></i>
+                          </div>
+                    </div>
+                    
+                    <div class="card-footer">
+                      <a href="https://github.com/JBdevCristian/CloneSpotify" class="btn btn-secondary" target="_blank" >Repositorio</a>
+                      <a href="projetos/CloneSpotify/index.html" target="_blank" class="btn btn-secondary">Projeto</a>
+                    </div>
+                  </div> <!--Final card -->
+           </div>
                   
+          <div class="col">
+                    
+                  <div class="card"> <!--Inicio card -->
+                    <img src="projetos/instFinans/finans.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Projeto Finans site de uma instituição financeira criada do zero e personalizado para praticar conhecimentos de design.</p>
+    
+                          <div class="">
+                            <i class="fa-brands fa-html5 fs-3 me-2"></i>
+                            <i class="fa-brands fa-css3-alt fs-3 me-2"></i>
+                            <i class="fa-brands fa-bootstrap fs-3"></i>
+                          </div>
+                    </div>
+                    
+                    <div class="card-footer">
+                      <a href="https://github.com/JBdevCristian/instFinans" class="btn btn-secondary" target="_blank" >Repositorio</a>
+                      <a href="projetos/instFinans/index.html" target="_blank" class="btn btn-secondary">Projeto</a>
+                    </div>
+                  </div> <!--Final card -->
+          </div>
+          
+          <div class="col">
+                  <div class="card"> <!--Inicio card -->
+                    <img src="projetos/GameMataMosquito/mosquito.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Projeto Game mata Mosquito criado para treinar habilidades de lógica em programação JavaScript, jogo com o objetivo de gerar e matar mosquitos ao aparecer na tela.</p>
+    
+                          <div class="">
+                            <i class="fa-brands fa-html5 fs-3 me-2"></i>
+                            <i class="fa-brands fa-css3-alt fs-3 me-2"></i>
+                            <i class="fa-brands fa-bootstrap fs-3 me-2"></i>
+                            <i class="fa-brands fa-js fs-3"></i>
+                          </div>
+                    </div>
+                    
+                    <div class="card-footer">
+                      <a href="https://github.com/JBdevCristian/GameMataMosquito" class="btn btn-secondary" target="_blank" >Repositorio</a>
+                      <a href="projetos/GameMataMosquito/index.html" target="_blank" class="btn btn-secondary">Projeto</a>
+                    </div>
+                  </div> <!--Final card -->
+          </div>
                   
           </div>
   
@@ -410,6 +417,10 @@
         
         
     </div>
+    
+    <footer class="bg-dark">
+      teste
+    </footer>
     
     
     
