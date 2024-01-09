@@ -13,6 +13,7 @@ const lightTheme = { //definindo light
     '--fundo-card': '#F7F7F7',
     '--bg-fundoEX': '#fafafa',
     '--sombra-FEX': '#bfbdbd',
+    '--fundo-rodape': '#dfdfdf',
    
 }
 
@@ -24,6 +25,7 @@ const darkTheme = { //definindo darkmode
     '--fundo-card': '#5B6068',
     '--bg-fundoEX': '#1e2630',
     '--sombra-FEX': '#12171c',
+    '--fundo-rodape': '#141b21',
 }
 
 inputContainer.addEventListener('change', function(){ //alterando valores html
