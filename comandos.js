@@ -1,9 +1,22 @@
 const inputContainer = document.querySelector('input'); //selecionando Input
 const rootElement = document.documentElement; //Pegando informação do html
 
+window.onload = function() {
+    const storedTheme = localStorage.getItem('theme');
 
-
-window.onload = getTheme
+    if (!storedTheme) {
+        // Se o tema não estiver armazenado, define como light por padrão
+        changeTheme(lightTheme);
+        inputContainer.checked = false;  // Considerando light como padrão, a caixa de seleção não estará marcada
+    } else {
+        // Se o tema estiver armazenado, carrega o tema armazenado
+        const theme = JSON.parse(storedTheme);
+        changeTheme(theme);
+        if (isThemeEqual(theme, darkTheme)) {
+            inputContainer.checked = true;  // Marca a caixa de seleção se o tema carregado for dark
+        }
+    }
+}
 
 const lightTheme = { //definindo light
     '--background-color': '#ffffff',
@@ -14,7 +27,6 @@ const lightTheme = { //definindo light
     '--bg-fundoEX': '#fafafa',
     '--sombra-FEX': '#bfbdbd',
     '--fundo-rodape': '#dfdfdf',
-   
 }
 
 const darkTheme = { //definindo darkmode
@@ -28,15 +40,14 @@ const darkTheme = { //definindo darkmode
     '--fundo-rodape': '#141b21',
 }
 
-inputContainer.addEventListener('change', function(){ //alterando valores html
-   const isChecked = inputContainer.checked; //checando os valores
+inputContainer.addEventListener('change', function() { //alterando valores html
+    const isChecked = inputContainer.checked; //checando os valores
 
-    if(isChecked) {
+    if (isChecked) {
         changeTheme(darkTheme);
     } else {
         changeTheme(lightTheme);
     }
-
 })
 
 function changeTheme(theme) {
@@ -57,13 +68,13 @@ function saveTheme(theme) {
 
 function getTheme() {
     const theme = JSON.parse(localStorage.getItem('theme'));
-    if(isThemeEqual(theme, darkTheme)) inputContainer.checked = true //marcando caixinha no load
+    if (isThemeEqual(theme, darkTheme)) inputContainer.checked = true //marcando caixinha no load
     changeTheme(theme)
 }   
 
 function isThemeEqual(firstTheme, secondTheme) {
     for (let prop in firstTheme) {
-        if(firstTheme[prop] != secondTheme[prop]) return false;
+        if (firstTheme[prop] != secondTheme[prop]) return false;
     }
 
     return true
