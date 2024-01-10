@@ -1,5 +1,5 @@
 /* links redes sociais */
- 
+
 .wts {
     color: var(--color);
     transition: .4s;
@@ -51,7 +51,7 @@
 
 /*Cards sobre mim*/
 
- 
+
 .card {
     position: relative;
     display: flex;
@@ -68,15 +68,15 @@
     transition: .4s;
     padding: 0px;
 
- 
+
 }
 
 .card h5 {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 .card p {
-  font-size: 15px;
+    font-size: 15px;
 }
 
 
@@ -84,9 +84,9 @@
     background-color: #aaaaaa;
 }
 
-  /* Sobre mim */
-  
-  .fundoSobre {
+/* Sobre mim */
+
+.fundoSobre {
     background-color: var(--fundo-card);
     color: var(--texto-card);
     transition: .4s;
@@ -95,14 +95,11 @@
     animation: .3s;
 }
 
-.fundoSobre p{
- font-size: 17px;
- padding-right: 25px;
- padding-left: 25px;
- margin-top: 10px;
- margin-bottom: 25px;
+.fundoSobre p {
+    font-size: 17px;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 25px;
 
 }
-
-
-

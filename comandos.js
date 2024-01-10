@@ -7,13 +7,13 @@ window.onload = function() {
     if (!storedTheme) {
         // Se o tema não estiver armazenado, define como light por padrão
         changeTheme(lightTheme);
-        inputContainer.checked = false;  // Considerando light como padrão, a caixa de seleção não estará marcada
+        inputContainer.checked = false; // Considerando light como padrão, a caixa de seleção não estará marcada
     } else {
         // Se o tema estiver armazenado, carrega o tema armazenado
         const theme = JSON.parse(storedTheme);
         changeTheme(theme);
         if (isThemeEqual(theme, darkTheme)) {
-            inputContainer.checked = true;  // Marca a caixa de seleção se o tema carregado for dark
+            inputContainer.checked = true; // Marca a caixa de seleção se o tema carregado for dark
         }
     }
 }
@@ -70,7 +70,7 @@ function getTheme() {
     const theme = JSON.parse(localStorage.getItem('theme'));
     if (isThemeEqual(theme, darkTheme)) inputContainer.checked = true //marcando caixinha no load
     changeTheme(theme)
-}   
+}
 
 function isThemeEqual(firstTheme, secondTheme) {
     for (let prop in firstTheme) {
