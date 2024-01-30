@@ -1,0 +1,222 @@
+Perguntas: SSP
+ 
+1- Paypal Plus (Checkout transparente)
+
+O Checkout transparente é a integração em que não é preciso ter uma conta no PayPal para efetuar a transação, apenas inserir os dados do cartão que processamos a compra diretamente no site.
+
+Se liga de como é dentro de um site:
+(Imagem)
+
+Botoes disponíveis nessa pergunta:
+Escalação
+Voltar pro inicio
+
+========================================================
+
+2- Express checkout
+
+Express Checkout � uma solu��o de pagamento do PayPal indicada para sites e lojas online que tenham integra��es de m�dio e grande porte.�
+
+A funcionalidade desse produto � simples: por meio de chamadas API, � poss�vel montar a estrutura do checkout no seu site, sendo necess�rio ter uma conta paypal para concluir o pagamento.
+
+
+Se liga de como � dentro de um site:
+(imagem)
+
+Botoes disponiveis nessa pergunta:p
+O que � necessario para ter
+Voltar pro inicio
+
+========================================================
+
+3- Qual a diferença entre as duas integrações?
+
+O Checkout Transparente � a integra��o em que os compradores n�o necessitam de ter uma conta conosco.  
+ 
+O Express Checkout o cliente faz o login na conta PayPal para efetuar a transa��o. Neste recurso, implica que os clientes precisam ter, necessariamente, uma conta no PayPal.
+
+Botoes disponiveis nessa pergunta:
+voltar para o inicio
+
+========================================================
+
+4 - Quais as principais plataformas que s�o utilizadas?	
+
+�tima pergunta, a paypal oferece servi�o para v�rios tipos de plataformas existentes.
+
+As mais famosas que atendemos:
+Shopify
+NuvemShop
+Woordpress
+Woocomerce
+Loja Integrada.
+Tray
+
+Mas n�o se preocupe, caso a plataforma de seu cliente n�o esteja inclusa nessas plataformas, basta informar ao mesmo que entre em contato com o suporte ou desenvolvedor para saber como realizar a integra��o.
+
+Botoes disponiveis nessa pergunta:
+voltar para o inicio
+
+========================================================
+
+5 - O que transferir para PSS?	
+
+�tima pergunta, atualmente o time de PSS atende:
+
+D�vidas de integra��o (Precisa ter alguns requisitos para ser feita a transfer�ncia)
+Testes de pagamentos de integra��o.
+Notifica��es instant�neas.
+Pagamento Referenciado.
+
+Mais algumas op��es caso possa te interessar:
+
+Botoes disponiveis nessa pergunta:
+O que n�o atendemos
+O que analisar antes de ligar para PSS
+Quando � necess�rio o teste de pagamento
+voltar para o inicio
+
+
+========================================================
+
+6-  Quando � necess�rio o teste de pagamento?	
+
+�tima pergunta, atualmente, para conseguirmos realizar algum teste de pagamento, ser� necess�rio essas informa��es:
+
+Tipo de conta: Premier ou Bussines
+E-mail confirmado.
+Site ativo.
+Plataforma que está utilizando atualmente ou se é desenvolvedor próprio.
+Link do site.
+
+Mais algumas op��es caso possa te interessar:
+
+Botoes disponiveis nessa pergunta:
+voltar para o inicio
+
+======================================================== PAREI AQUI
+7- O que analisar antes de ligar para PSS?
+ 
+� muito importante que voc� verifique qual o tipo de conta, pois em PSS s� atendemos contas premier e business, verificar se o e-mail do cliente esta confirmado, pois para recebimentos de pagamento o e-mail precisa estar confirmado.
+ 
+Se atente se a conta do cliente esta limitada, o que impede qualquer tipo de integra��o.
+Verificar se a conta est� limitada ou n�o.
+Verificar se o e-mail est� confirmado.
+Tipo de conta (premier ou business).
+ 
+Bot�es dispon�veis nessa pergunta:
+voltar para o inicio
+ 
+========================================================
+ 
+8- Bot�es dispon�veis no PayPal (Doa��es/Assinatura Smart).
+ 
+Bot�o de doa��o.
+ 
+O Bot�o de doa��o na finaliza��o de compra permite que voc� doe para institui��es de caridade ao concluir uma compra. Basta clicar na caixa de sele��o de doa��es durante a finaliza��o da compra se quiser apoiar a institui��o de caridade que aparece para voc�. 
+O bot�o de doa��o s� est� dispon�vel para contas ONG (Sem fins lucrativos). 
+ 
+ 
+Bot�o de assinatura.
+ 
+Com o Bot�o de assinatura voc� pode usar o bot�o Assinar para cobrar os clientes regularmente, cobrar as tarifas de assinatura ou oferecer servi�os de assinatura (Exemplo: Netflix, Disney, Amazon e ETC...). N�s fornecemos um c�digo HTML que voc� pode copiar e colar no c�digo do seu site.
+ 
+ 
+Bot�es dispon�veis nessa pergunta:
+
+voltar para o inicio
+ 
+========================================================
+
+9- Recusas de pagamentos nas integra��es.
+ 
+Se o seu pagamento for recusado, veja os motivos mais comuns:
+Seu pagamento foi recusado pelo banco ou pelo emissor do cart�o. Para proteger sua privacidade, o banco ou o emissor do cart�o n�o informa ao PayPal por que o cart�o foi recusado.  Entre em contato com o emissor do cart�o ou com o banco para solicitar mais informa��es.     
+As informa��es do cart�o est�o desatualizadas. Atualize a data de vencimento ou o endere�o de cobran�a associado ao cart�o de cr�dito ou d�bito.     
+Sua conta do PayPal est� limitada. Solucione uma limita��o aplicada em sua conta.     
+Voc� precisa passar por uma verifica��o de seguran�a. Para fornecer um servi�o seguro, podemos pedir que voc� confirme sua identidade.  Fazemos isso para ter certeza de que � voc�, usando a conta do PayPal.     
+Voc� ainda n�o confirmou o e-mail associado ao PayPal. Confirme seu e-mail agora.     
+Voc� ainda n�o confirmou sua conta banc�ria. Voc� precisa confirmar sua conta banc�ria para poder us�-la em pagamentos.     
+Pode ser necess�rio confirmar seu cart�o. Se um link "Confirmar cart�o" for exibido ao lado das informa��es do cart�o, voc� precisar� confirmar este cart�o de cr�dito ou d�bito para poder us�-lo no PayPal.  Esta etapa ajuda a garantir que o cart�o seja v�lido e perten�a a voc�.     
+� importante que verifique a conta do cliente para ver se possui alguma limita��o ou se o e-mail est� confirmado ou n�o. 
+ 
+Bot�es dispon�veis nessa pergunta:
+ 
+voltar para o inicio
+ 
+========================================================
+ 
+10- Pagamento Referenciado.
+ 
+O pagamento referenciado � uma op��o de assinatura para contas jur�dicas, em que pode-se solicitar uma cobran�a sem data e sem valor fixo, ou seja, pode-se solicitar a cobran�a de um valor aleat�rio, na data em que desejar (contanto que seja referente ao produto e servi�o ou produto vendido).  
+Neste processo o comprador autoriza o vendedor  a cobrar qualquer valor em sua conta PayPal, sempre que ele quiser, sem limite de valor e tempo.  
+
+ 
+Bot�es dispon�veis nessa pergunta:
+O que � necess�rio para escala��o?
+ 
+Nome da empresa:  
+URL do site da loja: 
+Numero de clientes recorrentes nos �ltimos 3 meses: 
+Valor das vendas mensais:  
+Como pretende usar a integra��o referenciada: 
+O produto solicitado � para utilizar no carrinho:  
+O comprador vai precisar iniciar manualmente cada pagamento ou ser� feito autom�tico a partir do contrato de cobran�a feito:  
+Est� utilizado plataforma para hospedar site ou desenvolvedor pr�prio: 
+ 
+O prazo para an�lise e retorno � de 10 dias �teis, pe�o que por gentileza aguarde o nosso retorno. 
+ 
+Aten��o: 
+ 
+Caso seja necess�rio enviar arquivos em anexo, por favor, acesse sua conta PayPal e depois clique aqui. 
+ 
+Encaminhar o e-mail solicitando a documenta��o; 
+Passar o prazo de 10 dias �teis para a analise, que pode ou n�o ser liberada. 
+
+voltar para o inicio
+ 
+========================================================
+ 
+11- O que � API?
+ 
+API significa Application Programming Interface (Interface de Programa��o de Aplica��o). No contexto de APIs, a palavra Aplica��o refere-se a qualquer software com uma fun��o distinta. A interface pode ser pensada como um contrato de servi�o entre duas aplica��es.
+Ou seja, a API � um meio de comunica��o entre o site do vendedor/cliente e a conta PayPal dele. 
+ 
+Botoes dispon�veis nessa pergunta:
+voltar para o inicio
+ 
+========================================================
+ 
+12- O que � notifica��o de pagamentos (NIP)?	
+ 
+Notifica��o instant�nea de pagamento (NIP) � um servi�o de mensagem que envia notifica��es sobre atualiza��es de suas transa��es do PayPal. Voc� pode us�-la para automatizar fun��es administrativas, como preenchimento de pedidos, rastreamento de envio de mercadorias e atualiza��es de status. As notifica��es instant�neas de pagamento podem atualiz�-lo sobre:   
+  
+Pagamentos instant�neos (incluindo o PayPal Checkout e pagamentos diretos com cart�o de cr�dito)  
+Pagamentos com cheque eletr�nico  
+Pagamentos pendentes  
+Cobran�as recorrentes e assinaturas  
+Autoriza��es  
+Disputas, estornos, revers�es e reembolsos.  
+ 
+Botoes dispon�veis nessa pergunta:
+voltar para o inicio
+
+========================================================
+
+13- Escala��o
+
+Vou te ajudar com isso ;)
+
+Qual tipo de escala��o est� procurando ?
+
+Paypal Plus
+Pagamento referenciado
+Pending On Boarding
+
+
+
+
+
+
+
+==================================

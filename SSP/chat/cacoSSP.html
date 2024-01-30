@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset=”UTF-8″>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../../Imagens/cacoIcone.png" type="image/x-icon">
+    <link rel="stylesheet" href="cacoSSP.css" type="text/css" media="all" />
+    <title>Caco</title>
+</head>
+    <body>
+      
+  <div class="bortaTop">
+    <h5 class="text-center mt-2">CACO</h5>
+  </div>
+  
+  
+      <div class="container">
+
+        <div class="caixaBot" id="mensagemPrimaria"> <!-- Chat bot -->
+          <div class="row d-flex">
+            <div class="col-1">
+              <div class="box-imagem">
+                <img src="../../imagens/cacoIcone.png" alt="" />
+              </div>
+            </div>
+            <div class="col-11">
+              <div class="ms-3"> <!--Parte texto -->
+                <div class="box-texto">
+                  <p>Olá, sou o caco e estou aqui para tirar suas duvidas!</p>
+                </div>
+              </div> <!--/Parte texto -->
+            </div>
+          </div>
+        </div> <!-- /Chat bot -->
+      
+        <div class="caixaBot" id="perguntas"> <!-- Chat bot -->
+          <div class="row d-flex">
+            <div class="col-1">
+              <div class="box-imagem">
+                <img src="../../imagens/cacoIcone.png" alt="" />
+              </div>
+            </div>
+            <div class="col-11">
+              <div class="ms-3"> <!--Parte texto -->
+                <div class="box-texto">
+                  <p>Selecione uma das opções para darmos continuidade:</p>
+                  <div class="text-center botoes d-grid" name="opcao">
+                    <button id="1" value="Checkout Transparente (Paypal Plus)" class="btn btn-success">Checkout Transparente (Paypal Plus) <i class="fa-solid fa-credit-card ms-2"></i></button>
+                    <button id="2" value="Express checkout" class="btn btn-success">Express checkout <i class="fa-brands fa-paypal ms-2"></i></button>
+                    <button id="3" value="Qual a diferença entre as duas integrações?" class="btn btn-success btn-sm">Qual a diferença entre as duas integrações? <i class="ms-2 fa-solid fa-arrows-rotate"></i></button>
+                    <button id="4" value="Quais as principais plataformas que são utilizadas?" class="btn btn-success btn-sm">Quais as principais plataformas que são utilizadas?</button>
+                    <button id="5" value="O que transferir para PSS?" class="btn btn-success btn-sm">O que transferir para PSS? <i class="fa-solid fa-phone-volume ms-2 "></i></button>
+                    <button id="6" value="O que é necessário para o teste de pagamento?" class="btn btn-success btn-sm">O que é necessário para o teste de pagamento?</button>
+                    <button id="7" value="O que analisar antes de ligar para PSS?" class="btn btn-success btn-sm">O que analisar antes de ligar para PSS? <i class="fa-solid fa-triangle-exclamation"></i></button>
+                    <button id="8" value="Botões disponíveis no PayPal" class="btn btn-success btn-sm">Botões disponíveis no PayPal <i class="fa-solid fa-pause ms-2"></i></button> 
+                    <button id="9" value="Recusas de pagamentos nas integrações." class="btn btn-success btn-sm">Recusas de pagamentos nas integrações <i class="fa-solid fa-circle-xmark ms-2"></i></button> 
+                    <button id="10" value="Pagamento Referenciado." class="btn btn-success btn-sm">Pagamento Referenciado <i class="fa-solid fa-cart-shopping ms-2"></i></button>
+                    <button id="11" value="O que é API?" class="btn btn-success btn-sm">O que é API? <i class="fa-solid fa-tape ms-2"></i></button>
+                    <button id="12" value="O que é notificação de pagamentos (NIP)?" class="btn btn-success btn-sm">O que é notificação de pagamentos (NIP)? <i class="fa-solid fa-envelope ms-2"></i></button> 
+                    <button id="13" value="Escalações" class="btn btn-success btn-sm">Escalações</button>
+                  </div>
+                </div>
+              </div> <!--/Parte texto -->
+            </div>
+          </div>
+        </div> <!-- /Chat bot -->
+
+        <div class="caixaCarregamento" id="carregamento"> <!-- Chat bot Carregamento -->
+          <div class="row d-flex">
+            <div class="col-1">
+              <div class="box-imagem">
+                <img src="../../imagens/cacoIcone.png" alt="" />
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="ms-3"> <!--Chat bot Carregamento -->
+              <div class="box-texto-carregamento">
+                  <div class="ms-1 carregamento">
+                    <span class="elementoCarregamento"></span>
+                    <span class="elementoCarregamento"></span>
+                    <span class="elementoCarregamento"></span>
+                  </div>
+                </div>
+              </div><!-- Chat bot Carregamento -->
+            </div>
+          </div>
+        </div> <!-- /Chat bot Carregamento -->
+      
+        <div id="conteudoUsuario"></div>
+        
+      </div>
+
+
+  
+  <div class="menuChat "> <!--Rodape site -->
+    <div class="row d-flex">
+        <div class="col-10"> <!-- Parte Chat-->
+          <input class="form-control"  value="" type="text" id="perguntasUsuario" placeholder="Qual a sua duvida?" />
+       </div>
+       <div class="col-2 mt-2">
+        <i id="enviar" class="fa-solid fa-paper-plane env"></i>
+       </div>
+    </div>
+  </div> <!--/Rodape site -->
+
+    <script src="chat.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://kit.fontawesome.com/6173e4b356.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+</html>

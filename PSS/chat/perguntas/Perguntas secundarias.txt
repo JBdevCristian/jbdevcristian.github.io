@@ -1,0 +1,56 @@
+Perguntas secundarias:
+
+1- Paypal Plus (Checkout transparente) - Escalação
+
+Boa ai sim, segue o que é necessário para escalar no Intranet
+
+TPV Anual: R$XXX (Faturamento anual do cliente ou estimativa)
+Nome Completo: XXX
+Razão Social: XXX (Pode ser consultada por https://www.situacao-cadastral.com/ )
+CNPJ: XXX
+URL do Site: XXX
+Telefone: XXX
+E-mail: XXX
+Porcentagem de Recebimento pelo PayPal (SOW): XXX% PayPal (Se o cliente recebe metade pelo PayPal, e metade por outro método de pagamento, exemplo: Cielo, Stone, PagSeguro, etc. Inserimos apenas quanto será do PayPal)
+Valor médio de recebimento por cliente: R$XXX 
+Plataforma para hospedar ou desenvolvedor próprio: XXX
+
+Após pegar essas informações, será necessário adicionar a nota com tudo preenchido na conta do cliente e orientar que o prazo médio é de 1 a 5 dias úteis, podendo se estender.
+
+Área Ofender: Integração. 
+Situação Ofender: PayPal Plus   
+Sênior Responsável.
+
+Botoes disponiveis nessa pergunta:
+Voltar para o início.
+
+
+========================================================
+2- Express checkout - O que é necessario para ter
+
+Boa ai sim, otima pergunta.
+
+Para utilizar a integração Express checkout, é necessário que o cliente tenha uma conta no mínimo Premier.
+
+Importante saber que as plataformas atualmente estão apenas utilizando contas de perfil Bussines sendo necessário entrar em contato com o mesmo para saber se o perfil da conta é aceita, tudo bem?
+
+Botoes disponíveis nessa pergunta:
+Voltar para o início.
+
+========================================================
+5 - O que transferir para PSS? - O que não atendemos
+
+Boa ai sim, obrigado por perguntar, segue a baixo uma listinha do que não conseguimos prestar suporte.
+
+- Contas Personal - mesmo que seja apenas para passar uma orientação, não podemos atender porque não atende os criterios de transferencia tipo gerar credenciais que seria necessario
+- Solicitação de integração
+- Parcelamento/manual
+- Faturas
+- Negociação de Taxas
+
+Mais algumas opções que talvez te interesse:
+O que analisar antes de ligar para PSS
+Quando é necessário o teste de pagamento
+Voltar para o início.
+
+========================================================
