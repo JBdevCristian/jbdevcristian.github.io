@@ -783,7 +783,7 @@ function handleBotao13() {
         <div class="col-11">
             <div class="ms-3">
                 <div class="box-texto">
-                    <h5 class="text-center mb-2">Escalação</h5>
+                    <h5 class="text-center mb-2">Escalações</h5>
                     <hr>
                     <p>Vou te ajudar com isso &#128521</p>
                     <p><b>Qual tipo de escalação está procurando ?</b></p>
@@ -791,7 +791,7 @@ function handleBotao13() {
                     <div class="text-center botoes d-grid">
                       <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="escalacaoPP()">Paypal Plus</button>
                       <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="nessReferenciado">Pagamento referenciado</button>
-                      <button value="Voltar para inicio" class="btn btn-success btn-sm">Pending On Boarding</button>
+                      <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="Pending()">Pending On Boarding</button>
                       <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="rolarParaOTopo()">Voltar para inicio</button>
                     </div>
                 </div>
@@ -1078,6 +1078,49 @@ function nessReferenciado() {
     }, 500); // Aguarda 1 segundo antes de incorporar a resposta específica
 }
 
+function Pending() {
+    setTimeout(function() {
+        // Mensagem correspondente ao clique no botão com id="2"
+        var Pending = `
+        <div class="caixaBot mt-2 row d-flex">
+        <div class="col-1">
+            <div class="box-imagem">
+                <img src="../../imagens/cacoIcone.png" alt="" />
+            </div>
+        </div>
+        <div class="col-11">
+            <div class="ms-3">
+                <div class="box-texto">
+                    <h5 class="text-center mb-2">Pending On Boarding</h5>
+                    <hr>
+                    <p>Maravilha, dá uma olhadinha do que é preciso ter para resolver esse problema	&#128513;</p>
+                    <hr>
+                    <p>Para os cenários de pagamentos com status de Pending partner Onboarding, foi identificado que é possível reverter (via Spark), desde que a pessoa vendedora nos contate e não tenha enviado produto/serviço vendido.</p>
+                    <p>Caso a pessoa vendedora tenha enviado o item, precisamos entender se é a primeira vez que isso acontece, para coletar prints da evidência da entrega, entender o que é comercializado e analisar a conta no CCI, para ver a disponibilidade do CT e seguir com a orientação correta para o cliente, de que, isso está relacionado ao meio de integração e a plataforma, que ele deverá alterar a forma de integrar o paypal, pois, os próximos pagamentos também poderão ficar com esse status.</p>
+                    <p><b class="text-warning">Importante: </b> O fluxo de ct está em validação, caso tenhamos qualquer novo update, avisaremos o mais breve. Todas as contas com esse cenário, deverão ser escaladas para consolidar e sinalizar ao time Paypal, que está atuando em uma melhoria para esse cenário.</p>
+                    <hr>
+                    <div style="font-style: italic; font-size: 13px;">
+                    <p><b class="text-warning">Área Offender:</b>Integração Brasil</p>
+                    <p><b class="text-warning">Situação Offender:</b>Pending On Boarding </p>
+                    </div>
+                    <hr>
+                    <div class="text-center botoes d-grid">
+                      <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="rolarParaOTopo()">Voltar para inicio</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+        `;
+
+        // Adiciona a resposta específica ao conteúdo do usuário
+        var conteudoUsuario = document.getElementById("conteudoUsuario");
+        conteudoUsuario.insertAdjacentHTML("beforeend", Pending);
+
+        // Rola para o final após adicionar a resposta específica
+        rolarParaOFinal();
+    }, 500); // Aguarda 1 segundo antes de incorporar a resposta específica
+}
 
 
 
