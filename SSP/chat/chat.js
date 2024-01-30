@@ -506,7 +506,6 @@ function handleBotao7() {
                     <p>É muito importante que você <b class="text-warning">verifique qual o tipo de conta</b>, pois em PSS <b class="text-warning">só atendemos contas premier e business</b>, verifique se o e-mail do cliente está confirmado, pois para recebimentos de pagamento o <b class="text-warning">e-mail precisaria estar confirmado.</b></p>
                     <hr>
                       <li>Se atente se a conta do cliente está limitada, o que impede qualquer tipo de integração</li>
-                      <li>Verificar se a conta está limitada ou não</li>
                       <li>Verificar se o e-mail está confirmado</li>
                       <li>Tipo de conta (premier ou business).</li>
                     </ul>
