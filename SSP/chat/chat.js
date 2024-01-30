@@ -138,7 +138,7 @@ function adicionarResposta(resposta, classe) {
     var objetoCaixa = `
         <div class="col-1">
             <div class="box-imagem">
-                <img src="../../imagens/cacoIcone.png" alt="" />
+                <img src="cacoIcone.png" alt="" />
             </div>
         </div>
         <div class="col-7">
@@ -182,7 +182,7 @@ function handleBotao1() {
             <div class="caixaBot mt-2 row d-flex">
                 <div class="col-1">
                     <div class="box-imagem">
-                        <img src="../../imagens/cacoIcone.png" alt="" />
+                        <img src="cacoIcone.png" alt="" />
                     </div>
                 </div>
                 <div class="col-11">
@@ -233,7 +233,7 @@ function handleBotao2() {
             <div class="caixaBot mt-2 row d-flex">
                 <div class="col-1">
                     <div class="box-imagem">
-                        <img src="../../imagens/cacoIcone.png" alt="" />
+                        <img src="cacoIcone.png" alt="" />
                     </div>
                 </div>
                 <div class="col-11">
@@ -285,7 +285,7 @@ function handleBotao3() {
         <div class="caixaBot mt-2 row d-flex">
         <div class="col-1">
             <div class="box-imagem">
-                <img src="../../imagens/cacoIcone.png" alt="" />
+                <img src="cacoIcone.png" alt="" />
             </div>
         </div>
         <div class="col-11">
@@ -342,7 +342,7 @@ function handleBotao4() {
         <div class="caixaBot mt-2 row d-flex">
         <div class="col-1">
             <div class="box-imagem">
-                <img src="../../imagens/cacoIcone.png" alt="" />
+                <img src="cacoIcone.png" alt="" />
             </div>
         </div>
         <div class="col-11">
@@ -394,7 +394,7 @@ function handleBotao5() {
         <div class="caixaBot mt-2 row d-flex">
   <div class="col-1">
       <div class="box-imagem">
-          <img src="../../imagens/cacoIcone.png" alt="" />
+          <img src="cacoIcone.png" alt="" />
       </div>
   </div>
   <div class="col-11">
@@ -445,7 +445,7 @@ function handleBotao6() {
         <div class="caixaBot mt-2 row d-flex">
         <div class="col-1">
         <div class="box-imagem">
-            <img src="../../imagens/cacoIcone.png" alt="" />
+            <img src="cacoIcone.png" alt="" />
         </div>
       </div>
       <div class="col-11">
@@ -495,7 +495,7 @@ function handleBotao7() {
         <div class="caixaBot mt-2 row d-flex">
         <div class="col-1">
             <div class="box-imagem">
-                <img src="../../imagens/cacoIcone.png" alt="" />
+                <img src="cacoIcone.png" alt="" />
             </div>
         </div>
         <div class="col-11">
@@ -542,7 +542,7 @@ function handleBotao8() {
         <div class="caixaBot mt-2 row d-flex">
         <div class="col-1">
             <div class="box-imagem">
-                <img src="../../imagens/cacoIcone.png" alt="" />
+                <img src="cacoIcone.png" alt="" />
             </div>
         </div>
         <div class="col-11">
@@ -588,7 +588,7 @@ function handleBotao9() {
         <div class="caixaBot mt-2 row d-flex">
         <div class="col-1">
             <div class="box-imagem">
-                <img src="../../imagens/cacoIcone.png" alt="" />
+                <img src="cacoIcone.png" alt="" />
             </div>
         </div>
         <div class="col-11">
@@ -639,7 +639,7 @@ function handleBotao10() {
         <div class="caixaBot mt-2 row d-flex">
         <div class="col-1">
             <div class="box-imagem">
-                <img src="../../imagens/cacoIcone.png" alt="" />
+                <img src="cacoIcone.png" alt="" />
             </div>
         </div>
         <div class="col-11">
@@ -683,7 +683,7 @@ function handleBotao11() {
         <div class="caixaBot mt-2 row d-flex">
         <div class="col-1">
             <div class="box-imagem">
-                <img src="../../imagens/cacoIcone.png" alt="" />
+                <img src="cacoIcone.png" alt="" />
             </div>
         </div>
         <div class="col-11">
@@ -727,7 +727,7 @@ function handleBotao12() {
         <div class="caixaBot mt-2 row d-flex">
         <div class="col-1">
             <div class="box-imagem">
-                <img src="../../imagens/cacoIcone.png" alt="" />
+                <img src="cacoIcone.png" alt="" />
             </div>
         </div>
         <div class="col-11">
@@ -777,7 +777,7 @@ function handleBotao13() {
         <div class="caixaBot mt-2 row d-flex">
         <div class="col-1">
             <div class="box-imagem">
-                <img src="../../imagens/cacoIcone.png" alt="" />
+                <img src="cacoIcone.png" alt="" />
             </div>
         </div>
         <div class="col-11">
@@ -819,7 +819,7 @@ function escalacaoPP() {
         <div class="caixaBot mt-2 row d-flex">
         <div class="col-1">
             <div class="box-imagem">
-                <img src="../../imagens/cacoIcone.png" alt="" />
+                <img src="cacoIcone.png" alt="" />
             </div>
         </div>
         <div class="col-11">
@@ -874,7 +874,7 @@ function ecDuvida() {
         <div class="caixaBot mt-2 row d-flex">
         <div class="col-1">
             <div class="box-imagem">
-                <img src="../../imagens/cacoIcone.png" alt="" />
+                <img src="cacoIcone.png" alt="" />
             </div>
         </div>
         <div class="col-11">
@@ -913,7 +913,7 @@ function naoAtendemos() {
         <div class="caixaBot mt-2 row d-flex">
         <div class="col-1">
             <div class="box-imagem">
-                <img src="../../imagens/cacoIcone.png" alt="" />
+                <img src="cacoIcone.png" alt="" />
             </div>
         </div>
         <div class="col-11">
@@ -958,7 +958,7 @@ function botaoDoacao() {
         <div class="caixaBot mt-2 row d-flex">
         <div class="col-1">
             <div class="box-imagem">
-                <img src="../../imagens/cacoIcone.png" alt="" />
+                <img src="cacoIcone.png" alt="" />
             </div>
         </div>
         <div class="col-11">
@@ -998,7 +998,7 @@ function botaoAss() {
         <div class="caixaBot mt-2 row d-flex">
         <div class="col-1">
             <div class="box-imagem">
-                <img src="../../imagens/cacoIcone.png" alt="" />
+                <img src="cacoIcone.png" alt="" />
             </div>
         </div>
         <div class="col-11">
@@ -1036,7 +1036,7 @@ function nessReferenciado() {
         <div class="caixaBot mt-2 row d-flex">
         <div class="col-1">
             <div class="box-imagem">
-                <img src="../../imagens/cacoIcone.png" alt="" />
+                <img src="cacoIcone.png" alt="" />
             </div>
         </div>
         <div class="col-11">
@@ -1085,7 +1085,7 @@ function Pending() {
         <div class="caixaBot mt-2 row d-flex">
         <div class="col-1">
             <div class="box-imagem">
-                <img src="../../imagens/cacoIcone.png" alt="" />
+                <img src="cacoIcone.png" alt="" />
             </div>
         </div>
         <div class="col-11">
