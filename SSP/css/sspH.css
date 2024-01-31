@@ -11,18 +11,18 @@
 }
 
 .navBG a::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    border-radius: 4px;
-    background-color: #29298C;
-    bottom: 0;
-    left: 0;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform .3s ease-in-out;
-  }
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 4px;
+  background-color: #29298C;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+}
 
 .navBG a:hover::before {
   transform-origin: left;
@@ -32,40 +32,40 @@
 
 /*Perosonalizando caco*/
 #caco {
-    width: 300px;
-    border-radius: 40%;
-    border: 1px solid #1D1D5F;
-    background-color: #242490;
-    box-shadow: inset 0 0 10px black;
-  }
-  
-  @media (max-width: 575.98px) { 
-    #caco {
-      width: 150px;
-    }
-  }
-  
-      @media (min-width: 767.98px) { 
-      #caco {
-        width: 250px;
-      }
-      
-    }
+  width: 300px;
+  border-radius: 40%;
+  border: 1px solid #1D1D5F;
+  background-color: #242490;
+  box-shadow: inset 0 0 10px black;
+}
 
-  .animacao {
-    animation: fundo 0.2s linear 0s 1 normal forwards;
+@media (max-width: 575.98px) {
+  #caco {
+    width: 150px;
+  }
+}
+
+@media (min-width: 767.98px) {
+  #caco {
+    width: 250px;
   }
 
-  @keyframes animacao {
-	0% {
-		transform: scale(0);
-		opacity: 0;
-	}
+}
 
-	100% {
-		transform: scale(1);
-		opacity: 1;
-	}
+.animacao {
+  animation: fundo 0.2s linear 0s 1 normal forwards;
+}
+
+@keyframes animacao {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 /* Colunas */
@@ -74,11 +74,11 @@
   padding-top: 160px;
 }
 
-@media (max-width: 767.98px) { 
-  
-.colunas .col {
-  margin: 50px;
-}
+@media (max-width: 767.98px) {
+
+  .colunas .col {
+    margin: 50px;
+  }
 }
 
 /*Icone caco chat*/
@@ -91,37 +91,38 @@
   margin-bottom: 20px;
 }
 
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
   .cacoH {
     display: flex;
     padding-top: 400px;
     padding-left: 400px;
   }
- }
+}
 
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
   .cacoH {
     display: flex;
     padding-top: 380px;
     padding-left: 550px;
   }
- }
+}
 
- @media (min-width: 1000px) { 
-    .cacoH {
-      display: flex;
-      padding-top: 300px;
-      padding-left: 325px;
-    }
+@media (min-width: 1000px) {
+  .cacoH {
+    display: flex;
+    padding-top: 300px;
+    padding-left: 325px;
   }
-  
-  /*Animação pulse caco icone*/
-  
-  @keyframes pulse-animation {
+}
+
+/*Animação pulse caco icone*/
+
+@keyframes pulse-animation {
   0% {
     box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.8);
   }
+
   100% {
     box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
   }
