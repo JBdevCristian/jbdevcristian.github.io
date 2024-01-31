@@ -6,6 +6,7 @@ body {
   background-color: #3030A6;
   background-image: url('foundever.png');
   background-size: 100px;
+  background-attachment: fixed;
   margin-bottom: 90px;
   font-family: Verdana, Sans-Serif;
 }

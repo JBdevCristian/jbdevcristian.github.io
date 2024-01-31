@@ -175,6 +175,11 @@ function rolarParaOTopo() {
 
 function handleBotao1() {
 
+        // Exibir a mensagem principal após adicionar a resposta específica
+        setTimeout(function () {
+            exibirMensagem("mensagemPrimaria");
+        }, 1000); // Aguarda 1 segundo antes de exibir a mensagem principal
+
     // Aguarda um curto período de tempo antes de incorporar a resposta específica
     setTimeout(function() {
         // Mensagem correspondente ao clique no botão com id="1"
@@ -216,7 +221,7 @@ function handleBotao1() {
 
         // Rola para o final após adicionar a resposta específica
         rolarParaOFinal();
-    }, 1000); // Aguarda 1 segundo antes de incorporar a resposta específica
+    }, 1500); // Aguarda 1 segundo antes de incorporar a resposta específica
 }
   
 
@@ -225,6 +230,11 @@ var botao2 = document.getElementById('2');
 botao2.addEventListener('click', handleBotao2);
 
 function handleBotao2() {   
+
+        // Exibir a mensagem principal após adicionar a resposta específica
+        setTimeout(function () {
+            exibirMensagem("mensagemPrimaria");
+        }, 1000); // Aguarda 1 segundo antes de exibir a mensagem principal
 
     // Aguarda um curto período de tempo antes de incorporar a resposta específica
     setTimeout(function() {
@@ -268,7 +278,7 @@ function handleBotao2() {
 
         // Rola para o final após adicionar a resposta específica
         rolarParaOFinal();
-    }, 1000); // Aguarda 1 segundo antes de incorporar a resposta específica
+    }, 1500); // Aguarda 1 segundo antes de incorporar a resposta específica
 }
 
 
@@ -278,8 +288,15 @@ botao3.addEventListener('click', handleBotao3);
 
 function handleBotao3() {   
 
+        // Exibir a mensagem principal após adicionar a resposta específica
+        setTimeout(function () {
+            exibirMensagem("mensagemPrimaria");
+        }, 1000); // Aguarda 1 segundo antes de exibir a mensagem principal
+    
+    
     // Aguarda um curto período de tempo antes de incorporar a resposta específica
     setTimeout(function() {
+        
         // Mensagem correspondente ao clique no botão com id="2"
         var mensagemBotao3HTML = `
         <div class="caixaBot mt-2 row d-flex">
@@ -311,7 +328,7 @@ function handleBotao3() {
 
         // Rola para o final após adicionar a resposta específica
         rolarParaOFinal();
-    }, 1000); // Aguarda 1 segundo antes de incorporar a resposta específica
+    }, 1500); // Aguarda 1 segundo antes de incorporar a resposta específica
 }
 
 // Função para exibir o modal com a imagem
@@ -333,7 +350,12 @@ function zoomImg(imgId, imageSrc) {
 var botao4 = document.getElementById('4');
 botao4.addEventListener('click', handleBotao4);
 
-function handleBotao4() {   
+function handleBotao4() {  
+
+        // Exibir a mensagem principal após adicionar a resposta específica
+        setTimeout(function () {
+            exibirMensagem("mensagemPrimaria");
+        }, 1000); // Aguarda 1 segundo antes de exibir a mensagem principal
 
     // Aguarda um curto período de tempo antes de incorporar a resposta específica
     setTimeout(function() {
@@ -378,7 +400,7 @@ function handleBotao4() {
 
         // Rola para o final após adicionar a resposta específica
         rolarParaOFinal();
-    }, 1000); // Aguarda 1 segundo antes de incorporar a resposta específica
+    }, 1500); // Aguarda 1 segundo antes de incorporar a resposta específica
 }
 
 //O que transferir para PSS?	
@@ -386,6 +408,11 @@ var botao5 = document.getElementById('5');
 botao5.addEventListener('click', handleBotao5);
 
 function handleBotao5() {   
+
+        // Exibir a mensagem principal após adicionar a resposta específica
+        setTimeout(function () {
+            exibirMensagem("mensagemPrimaria");
+        }, 1000); // Aguarda 1 segundo antes de exibir a mensagem principal
 
     // Aguarda um curto período de tempo antes de incorporar a resposta específica
     setTimeout(function() {
@@ -429,7 +456,7 @@ function handleBotao5() {
 
         // Rola para o final após adicionar a resposta específica
         rolarParaOFinal();
-    }, 1000); // Aguarda 1 segundo antes de incorporar a resposta específica
+    }, 1500); // Aguarda 1 segundo antes de incorporar a resposta específica
 }
 
 //O que é necessário o teste de pagamento?
@@ -437,6 +464,11 @@ var botao6 = document.getElementById('6');
 botao6.addEventListener('click', handleBotao6);
 
 function handleBotao6() {   
+
+        // Exibir a mensagem principal após adicionar a resposta específica
+        setTimeout(function () {
+            exibirMensagem("mensagemPrimaria");
+        }, 1000); // Aguarda 1 segundo antes de exibir a mensagem principal
 
     // Aguarda um curto período de tempo antes de incorporar a resposta específica
     setTimeout(function() {
@@ -479,7 +511,7 @@ function handleBotao6() {
 
         // Rola para o final após adicionar a resposta específica
         rolarParaOFinal();
-    }, 1000); // Aguarda 1 segundo antes de incorporar a resposta específica
+    }, 1500); // Aguarda 1 segundo antes de incorporar a resposta específica
 }
 
 //O que analisar antes de ligar para PSS?
@@ -487,6 +519,11 @@ var botao7 = document.getElementById('7');
 botao7.addEventListener('click', handleBotao7);
 
 function handleBotao7() {   
+
+        // Exibir a mensagem principal após adicionar a resposta específica
+    setTimeout(function () {
+        exibirMensagem("mensagemPrimaria");
+    }, 1000); // Aguarda 1 segundo antes de exibir a mensagem principal
 
     // Aguarda um curto período de tempo antes de incorporar a resposta específica
     setTimeout(function() {
@@ -525,7 +562,7 @@ function handleBotao7() {
 
         // Rola para o final após adicionar a resposta específica
         rolarParaOFinal();
-    }, 1000); // Aguarda 1 segundo antes de incorporar a resposta específica
+    }, 1500); // Aguarda 1 segundo antes de incorporar a resposta específica
 }
 
 //Botões disponíveis no PayPal
@@ -533,6 +570,11 @@ var botao8 = document.getElementById('8');
 botao8.addEventListener('click', handleBotao8);
 
 function handleBotao8() {   
+
+        // Exibir a mensagem principal após adicionar a resposta específica
+        setTimeout(function () {
+            exibirMensagem("mensagemPrimaria");
+        }, 1000); // Aguarda 1 segundo antes de exibir a mensagem principal
 
     // Aguarda um curto período de tempo antes de incorporar a resposta específica
     setTimeout(function() {
@@ -571,14 +613,18 @@ function handleBotao8() {
 
         // Rola para o final após adicionar a resposta específica
         rolarParaOFinal();
-    }, 1000); // Aguarda 1 segundo antes de incorporar a resposta específica
+    }, 1500); // Aguarda 1 segundo antes de incorporar a resposta específica
 }
 
 //Recusas de pagamentos nas integrações.
 var botao9 = document.getElementById('9');
 botao9.addEventListener('click', handleBotao9);
 
-function handleBotao9() {   
+function handleBotao9() {  
+        // Exibir a mensagem principal após adicionar a resposta específica
+        setTimeout(function () {
+            exibirMensagem("mensagemPrimaria");
+        }, 1000); // Aguarda 1 segundo antes de exibir a mensagem principal 
 
     // Aguarda um curto período de tempo antes de incorporar a resposta específica
     setTimeout(function() {
@@ -622,7 +668,7 @@ function handleBotao9() {
 
         // Rola para o final após adicionar a resposta específica
         rolarParaOFinal();
-    }, 1000); // Aguarda 1 segundo antes de incorporar a resposta específica
+    }, 1500); // Aguarda 1 segundo antes de incorporar a resposta específica
 }
 
 //Pagamento Referenciado.
@@ -630,6 +676,10 @@ var botao10 = document.getElementById('10');
 botao10.addEventListener('click', handleBotao10);
 
 function handleBotao10() {   
+        // Exibir a mensagem principal após adicionar a resposta específica
+        setTimeout(function () {
+            exibirMensagem("mensagemPrimaria");
+        }, 1000); // Aguarda 1 segundo antes de exibir a mensagem principal
 
     // Aguarda um curto período de tempo antes de incorporar a resposta específica
     setTimeout(function() {
@@ -666,7 +716,7 @@ function handleBotao10() {
 
         // Rola para o final após adicionar a resposta específica
         rolarParaOFinal();
-    }, 1000); // Aguarda 1 segundo antes de incorporar a resposta específica
+    }, 1500); // Aguarda 1 segundo antes de incorporar a resposta específica
 }
 
 //O que é API?
@@ -676,32 +726,38 @@ botao11.addEventListener('click', handleBotao11);
 function handleBotao11() {   
 
     // Aguarda um curto período de tempo antes de incorporar a resposta específica
+// Incorporar outro HTML durante 3 segundos antes de apresentar a função principal
+setTimeout(function() {
+    // Mensagem principal
+    exibirMensagem("mensagemPrimaria");
+
+    // Aguardar um curto período de tempo antes de incorporar a resposta específica sobre API
     setTimeout(function() {
         // Mensagem correspondente ao clique no botão com id="2"
         var mensagemBotao11HTML = `
-        <div class="caixaBot mt-2 row d-flex">
-        <div class="col-1">
-            <div class="box-imagem">
-                <img src="cacoIcone.png" alt="" />
-            </div>
-        </div>
-        <div class="col-11">
-            <div class="ms-3">
-                <div class="box-texto">
-                    <h5 class="text-center mb-2">O que é API?</h5>
-                    <hr>
-                    <p><b >Sempre bom adquirir mais conhecimento não é mesmo </b>&#129299</p>
-                    <p><b class="text-warning">As APIs são um tipo de “ponte” que conecta aplicações</b>, podendo ser utilizadas para os mais variados tipos de negócio, por empresas de diversos nichos de mercado ou tamanho.</p> 
-                    <p>Para você entender melhor, <b class="text-warning">usamos uma metáfora para explicar o significado de uma API.</b> Quando vamos a um restaurante, escolhemos um prato no menu e fazemos o pedido ao garçom.</p>
-                    <p>Em seguida, o garçom encaminha esse pedido à cozinha, que o prepara. No fim, o garçom traz o prato pronto até a gente. Por fim, não sabemos como o prato foi preparado, <b class="text-warning">apenas recebemos o que solicitamos.</b></p>
-                    <hr>
-                    <div class="text-center botoes d-grid">
-                      <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="rolarParaOTopo()">Voltar para inicio</button>
+            <div class="caixaBot mt-2 row d-flex">
+                <div class="col-1">
+                    <div class="box-imagem">
+                        <img src="cacoIcone.png" alt="" />
+                    </div>
+                </div>
+                <div class="col-11">
+                    <div class="ms-3">
+                        <div class="box-texto">
+                            <h5 class="text-center mb-2">O que é API?</h5>
+                            <hr>
+                            <p><b>Sempre bom adquirir mais conhecimento não é mesmo </b>&#129299</p>
+                            <p><b class="text-warning">As APIs são um tipo de “ponte” que conecta aplicações</b>, podendo ser utilizadas para os mais variados tipos de negócio, por empresas de diversos nichos de mercado ou tamanho.</p> 
+                            <p>Para você entender melhor, <b class="text-warning">usamos uma metáfora para explicar o significado de uma API.</b> Quando vamos a um restaurante, escolhemos um prato no menu e fazemos o pedido ao garçom.</p>
+                            <p>Em seguida, o garçom encaminha esse pedido à cozinha, que o prepara. No fim, o garçom traz o prato pronto até a gente. Por fim, não sabemos como o prato foi preparado, <b class="text-warning">apenas recebemos o que solicitamos.</b></p>
+                            <hr>
+                            <div class="text-center botoes d-grid">
+                                <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="rolarParaOTopo()">Voltar para inicio</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-      </div>
         `;
 
         // Adiciona a resposta específica ao conteúdo do usuário
@@ -710,57 +766,66 @@ function handleBotao11() {
 
         // Rola para o final após adicionar a resposta específica
         rolarParaOFinal();
-    }, 1000); // Aguarda 1 segundo antes de incorporar a resposta específica
+    }, 1000); // Aguarda 3 segundos antes de incorporar a resposta específica
+}, 1000); // Aguarda 1 segundo antes de exibir a mensagem principal
+
 }
 
 //O que é notificação de pagamentos (NIP)?
 var botao12 = document.getElementById('12');
 botao12.addEventListener('click', handleBotao12);
 
-function handleBotao12() {   
+function handleBotao12() {  
+    
 
-    // Aguarda um curto período de tempo antes de incorporar a resposta específica
-    setTimeout(function() {
-        // Mensagem correspondente ao clique no botão com id="2"
-        var mensagemBotao12HTML = `
+    // Exibir a mensagem principal após adicionar a resposta específica
+    setTimeout(function () {
+        exibirMensagem("mensagemPrimaria");
+    }, 1000); // Aguarda 1 segundo antes de exibir a mensagem principal
+
+setTimeout(function() {
+    // Mensagem correspondente ao clique no botão com id="2"
+    var mensagemBotao12HTML = `
         <div class="caixaBot mt-2 row d-flex">
-        <div class="col-1">
-            <div class="box-imagem">
-                <img src="cacoIcone.png" alt="" />
+            <div class="col-1">
+                <div class="box-imagem">
+                    <img src="cacoIcone.png" alt="" />
+                </div>
             </div>
-        </div>
-        <div class="col-11">
-            <div class="ms-3">
-                <div class="box-texto">
-                    <h5 class="text-center mb-2">O que é notificação de pagamentos (NIP)?</h5>
-                    <hr>
-                    <p><b>Sempre bom adquirir mais conhecimento não é mesmo </b>&#129299</p>
-                    <p>Notificação instantânea de pagamento (NIP) é um serviço de mensagem que <b class="text-warning">envia notificações sobre atualizações de suas transações do PayPal.</b> Você pode usá-la para automatizar funções administrativas, como preenchimento de pedidos, rastreamento de envio de mercadorias e atualizações de status. As notificações instantâneas de pagamento podem atualizá-lo sobre:</p> 
-                    <ul>
-                      <li>Pagamentos instantâneos (incluindo o PayPal Checkout e pagamentos diretos com cartão de crédito)</li>
-                      <li>Pagamentos com cheque eletrônico</li>
-                      <li>Pagamentos pendentes</li>
-                      <li>Cobranças recorrentes e assinaturas</li>
-                      <li>Autorizações</li>
-                      <li>Disputas, estornos, reversões e reembolsos</li>
-                    </ul>
-                    <hr>
-                    <div class="text-center botoes d-grid">
-                      <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="rolarParaOTopo()">Voltar para inicio</button>
+            <div class="col-11">
+                <div class="ms-3">
+                    <div class="box-texto">
+                        <h5 class="text-center mb-2">O que é notificação de pagamentos (NIP)?</h5>
+                        <hr>
+                        <p><b>Sempre bom adquirir mais conhecimento não é mesmo </b>&#129299</p>
+                        <p>Notificação instantânea de pagamento (NIP) é um serviço de mensagem que <b class="text-warning">envia notificações sobre atualizações de suas transações do PayPal.</b> Você pode usá-la para automatizar funções administrativas, como preenchimento de pedidos, rastreamento de envio de mercadorias e atualizações de status. As notificações instantâneas de pagamento podem atualizá-lo sobre:</p> 
+                        <ul>
+                            <li>Pagamentos instantâneos (incluindo o PayPal Checkout e pagamentos diretos com cartão de crédito)</li>
+                            <li>Pagamentos com cheque eletrônico</li>
+                            <li>Pagamentos pendentes</li>
+                            <li>Cobranças recorrentes e assinaturas</li>
+                            <li>Autorizações</li>
+                            <li>Disputas, estornos, reversões e reembolsos</li>
+                        </ul>
+                        <hr>
+                        <div class="text-center botoes d-grid">
+                            <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="rolarParaOTopo()">Voltar para inicio</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-      </div>
-        `;
+    `;
 
-        // Adiciona a resposta específica ao conteúdo do usuário
-        var conteudoUsuario = document.getElementById("conteudoUsuario");
-        conteudoUsuario.insertAdjacentHTML("beforeend", mensagemBotao12HTML);
+    // Adiciona a resposta específica ao conteúdo do usuário
+    var conteudoUsuario = document.getElementById("conteudoUsuario");
+    conteudoUsuario.insertAdjacentHTML("beforeend", mensagemBotao12HTML);
 
-        // Rola para o final após adicionar a resposta específica
-        rolarParaOFinal();
-    }, 1000); // Aguarda 1 segundo antes de incorporar a resposta específica
+    // Rola para o final após adicionar a resposta específica
+    rolarParaOFinal();
+
+}, 1500); // Aguarda 1 segundo antes de incorporar a resposta específica
+
 }
 
 //escalação
@@ -768,6 +833,12 @@ var botao13 = document.getElementById('13');
 botao13.addEventListener('click', handleBotao13);
 
 function handleBotao13() {   
+
+        // Exibir a mensagem principal após adicionar a resposta específica
+        setTimeout(function () {
+            exibirMensagem("mensagemPrimaria");
+        }, 1000); // Aguarda 1 segundo antes de exibir a mensagem principal
+
 
     // Aguarda um curto período de tempo antes de incorporar a resposta específica
     setTimeout(function() {
@@ -805,12 +876,18 @@ function handleBotao13() {
 
         // Rola para o final após adicionar a resposta específica
         rolarParaOFinal();
-    }, 1000); // Aguarda 1 segundo antes de incorporar a resposta específica
+    }, 1500); // Aguarda 1 segundo antes de incorporar a resposta específica
 }
 
 //Mensagens secundarias botões
 
 function escalacaoPP() {
+
+        // Exibir a mensagem principal após adicionar a resposta específica
+        setTimeout(function () {
+            exibirMensagem("mensagemPrimaria");
+        }, 1000); // Aguarda 1 segundo antes de exibir a mensagem principal
+
 
     setTimeout(function() {
         // Mensagem correspondente ao clique no botão com id="2"
@@ -862,11 +939,18 @@ function escalacaoPP() {
 
         // Rola para o final após adicionar a resposta específica
         rolarParaOFinal();
-    }, 500); // Aguarda 1 segundo antes de incorporar a resposta específica
+    }, 1500); // Aguarda 1 segundo antes de incorporar a resposta específica
 
 }
 
 function ecDuvida() {
+
+        // Exibir a mensagem principal após adicionar a resposta específica
+        setTimeout(function () {
+            exibirMensagem("mensagemPrimaria");
+        }, 1000); // Aguarda 1 segundo antes de exibir a mensagem principal
+
+
     setTimeout(function() {
         // Mensagem correspondente ao clique no botão com id="2"
         var duvidaExpress = `
@@ -901,11 +985,18 @@ function ecDuvida() {
 
         // Rola para o final após adicionar a resposta específica
         rolarParaOFinal();
-    }, 500); // Aguarda 1 segundo antes de incorporar a resposta específica
+    }, 1500); // Aguarda 1 segundo antes de incorporar a resposta específica
 
 }
 
 function naoAtendemos() {
+
+        // Exibir a mensagem principal após adicionar a resposta específica
+        setTimeout(function () {
+            exibirMensagem("mensagemPrimaria");
+        }, 1000); // Aguarda 1 segundo antes de exibir a mensagem principal
+
+    
     setTimeout(function() {
         // Mensagem correspondente ao clique no botão com id="2"
         var naoAtendemos = `
@@ -946,11 +1037,17 @@ function naoAtendemos() {
 
         // Rola para o final após adicionar a resposta específica
         rolarParaOFinal();
-    }, 500); // Aguarda 1 segundo antes de incorporar a resposta específica
+    }, 1500); // Aguarda 1 segundo antes de incorporar a resposta específica
 
 }
 
 function botaoDoacao() {
+
+        // Exibir a mensagem principal após adicionar a resposta específica
+        setTimeout(function () {
+            exibirMensagem("mensagemPrimaria");
+        }, 1000); // Aguarda 1 segundo antes de exibir a mensagem principal
+
     setTimeout(function() {
         // Mensagem correspondente ao clique no botão com id="2"
         var botaoDoacao = `
@@ -986,11 +1083,16 @@ function botaoDoacao() {
 
         // Rola para o final após adicionar a resposta específica
         rolarParaOFinal();
-    }, 500); // Aguarda 1 segundo antes de incorporar a resposta específica
+    }, 1500); // Aguarda 1 segundo antes de incorporar a resposta específica
 
 }
 
 function botaoAss() {
+        // Exibir a mensagem principal após adicionar a resposta específica
+        setTimeout(function () {
+            exibirMensagem("mensagemPrimaria");
+        }, 1000); // Aguarda 1 segundo antes de exibir a mensagem principal
+
     setTimeout(function() {
         // Mensagem correspondente ao clique no botão com id="2"
         var botaoAss = `
@@ -1025,10 +1127,16 @@ function botaoAss() {
 
         // Rola para o final após adicionar a resposta específica
         rolarParaOFinal();
-    }, 500); // Aguarda 1 segundo antes de incorporar a resposta específica
+    }, 1500); // Aguarda 1 segundo antes de incorporar a resposta específica
 }
 
 function nessReferenciado() {
+
+        // Exibir a mensagem principal após adicionar a resposta específica
+        setTimeout(function () {
+            exibirMensagem("mensagemPrimaria");
+        }, 1000); // Aguarda 1 segundo antes de exibir a mensagem principal
+
     setTimeout(function() {
         // Mensagem correspondente ao clique no botão com id="2"
         var nessReferenciado = `
@@ -1074,10 +1182,16 @@ function nessReferenciado() {
 
         // Rola para o final após adicionar a resposta específica
         rolarParaOFinal();
-    }, 500); // Aguarda 1 segundo antes de incorporar a resposta específica
+    }, 1500); // Aguarda 1 segundo antes de incorporar a resposta específica
 }
 
 function Pending() {
+
+        // Exibir a mensagem principal após adicionar a resposta específica
+        setTimeout(function () {
+            exibirMensagem("mensagemPrimaria");
+        }, 1000); // Aguarda 1 segundo antes de exibir a mensagem principal
+
     setTimeout(function() {
         // Mensagem correspondente ao clique no botão com id="2"
         var Pending = `
@@ -1118,35 +1232,8 @@ function Pending() {
 
         // Rola para o final após adicionar a resposta específica
         rolarParaOFinal();
-    }, 500); // Aguarda 1 segundo antes de incorporar a resposta específica
+    }, 1500); // Aguarda 1 segundo antes de incorporar a resposta específica
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
