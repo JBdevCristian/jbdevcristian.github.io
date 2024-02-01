@@ -298,27 +298,30 @@ document.addEventListener('DOMContentLoaded', function () {
  
        // Mensagem correspondente ao clique no botão com id="2"
        var mensagemBotao3HTML = `
-         <div class="caixaBot mt-2 row d-flex">
-         <div class="col-1">
-             <div class="box-imagem">
-                 <img src="cacoIcone.png" alt="" />
-             </div>
-         </div>
-         <div class="col-11">
-             <div class="ms-3">
-                 <div class="box-texto">
-                     <h5 class="text-center mb-2">Qual a diferença entre as duas integrações?</h5>
-                     <hr>
-                     <p><b class="text-warning">O Checkout Transparente</b> é a integração em que os <b class="text-warning">compradores não necessitam de ter uma conta conosco.</b></p>
-                     <p><b class="text-warning">O Express Checkout</b> o cliente faz o login na conta PayPal para efetuar a transação. Neste recurso, implica que os clientes <b class="text-warning">precisam ter, necessariamente, uma conta no PayPal.</b></p>
-                     <hr>
-                     <div class="text-center botoes d-grid">
-                         <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="rolarParaOTopo()">Voltar para inicio</button>
-                     </div>
-                 </div>
-             </div>
-         </div>
-     </div>
+       <div class="caixaBot mt-2 row d-flex">
+       <div class="col-1">
+           <div class="box-imagem">
+               <img src="cacoIcone.png" alt="" />
+           </div>
+       </div>
+       <div class="col-11">
+           <div class="ms-3">
+               <div class="box-texto">
+                   <h5 class="text-center mb-2">Qual a diferença entre as duas integrações?</h5>
+                   <hr>
+                   <p><b class="text-warning">O Checkout Transparente</b> é a integração em que os <b class="text-warning">compradores não necessitam de ter uma conta conosco.</b></p>
+                   <p><b class="text-warning">O Express Checkout</b> o cliente faz o login na conta PayPal para efetuar a transação. Neste recurso, implica que os clientes <b class="text-warning">precisam ter, necessariamente, uma conta no PayPal.</b></p>
+                   <hr>
+                   <p class="text-warning">Script:</p>
+                   <p>Certinho vou te explicar qual a diferença entre as duas, <b class="text-warning">caso você queira que seus clientes realizem os pagamentos utilizando a conta paypal ou queira vender em outra moeda</b>, o mais indicado para você seria o <b class="text-warning">ExpressCheckout</b>, mas caso queira que <b class="text-warning">seus clientes somente utilizem o cartão no seu site o mais indicado seria o Paypal plus (checkout transparente)</b> cliente não precisa ter uma conta somente colocar as informações do cartão de crédito, <b class="text-warning">lembrando que para ter a integração paypal plus precisar escalar para aprovação e logo em seguida se tiver tudo certinho poderá utilizar essa integração.</b></p>
+                   <div class="text-center botoes d-grid">
+                      <button value="Escalações" class="btn btn-success btn-sm" onclick="escalacaoPP()">Escalação</button>
+                       <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="rolarParaOTopo()">Voltar para inicio</button>
+                   </div>
+               </div>
+           </div>
+       </div>
+    </div>
          `;
  
        // Adiciona a resposta específica ao conteúdo do usuário
@@ -381,6 +384,7 @@ document.addEventListener('DOMContentLoaded', function () {
                        <li>Woocomerce</li>
                        <li>Loja Integrada.</li>
                        <li>Tray</li>
+                       <li><a target="_blank"href="https://www.paypal.com/br/webapps/mpp/merchant-integration/solution/ecommerce-platform?solution=express-checkout">Outras plataformas</a></li>
                      </ul>
                      <p><b class="text-warning mt-4">Mas não se preocupe, caso a plataforma de seu cliente não esteja inclusa nessas plataformas, basta informar ao mesmo que entre em contato com o suporte ou desenvolvedor para saber como realizar a integrção.</b></p>
                      <hr>
@@ -915,6 +919,7 @@ document.addEventListener('DOMContentLoaded', function () {
                        <li>Porcentagem de Recebimento pelo PayPal (SOW): XXX% PayPal (Se o cliente recebe metade pelo PayPal, e metade por outro método de pagamento)</li>
                        <li>Valor médio de recebimento por cliente: R$XXX </li>
                        <li>Plataforma para hospedar ou desenvolvedor próprio: XXX</li>
+                       <li>MCC: XXX</li>
                      </ul>
                      <p> <b class="text-warning">Após pegar essas informações, será necessário adicionar a nota com tudo preenchido na conta do cliente e orientar que o prazo médio é de 1 a 5 dias uteis, podendo se estender.</b></p>
                      <hr>
