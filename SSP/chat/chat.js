@@ -255,6 +255,7 @@ document.addEventListener('DOMContentLoaded', function () {
                              <hr>
                              <h5 class="text-center mb-2">Dá uma olhada em como é dentro de um site:</h5>
                              <img class="mx-auto d-block imagem2"alt="imagem" onclick="zoomImg('img2', 'perguntas/EC.png')" src="perguntas/EC.png">
+                             <p class="fst-italic mt-3" style="font-size: 12px;"><b class="text-warning">PS:</b> Não é necessário escalação, já vem ativo na conta.<p>
                              <hr>
                              <div class="text-center botoes d-grid">
                                  <button value="Escalações" onclick="ecDuvida()" class="btn btn-success btn-sm">O que é necessário para ter</button>
@@ -310,9 +311,10 @@ document.addEventListener('DOMContentLoaded', function () {
                    <h5 class="text-center mb-2">Qual a diferença entre as duas integrações?</h5>
                    <hr>
                    <p><b class="text-warning">O Checkout Transparente</b> é a integração em que os <b class="text-warning">compradores não necessitam de ter uma conta conosco.</b></p>
+                   <hr>
                    <p><b class="text-warning">O Express Checkout</b> o cliente faz o login na conta PayPal para efetuar a transação. Neste recurso, implica que os clientes <b class="text-warning">precisam ter, necessariamente, uma conta no PayPal.</b></p>
                    <hr>
-                   <p class="text-warning">Script:</p>
+                   <h5 class="text-warning">Script:</h5>
                    <p>Certinho vou te explicar qual a diferença entre as duas, <b class="text-warning">caso você queira que seus clientes realizem os pagamentos utilizando a conta paypal ou queira vender em outra moeda</b>, o mais indicado para você seria o <b class="text-warning">ExpressCheckout</b>, mas caso queira que <b class="text-warning">seus clientes somente utilizem o cartão no seu site o mais indicado seria o Paypal plus (checkout transparente)</b> cliente não precisa ter uma conta somente colocar as informações do cartão de crédito, <b class="text-warning">lembrando que para ter a integração paypal plus precisar escalar para aprovação e logo em seguida se tiver tudo certinho poderá utilizar essa integração.</b></p>
                    <div class="text-center botoes d-grid">
                       <button value="Escalações" class="btn btn-success btn-sm" onclick="escalacaoPP()">Escalação</button>
