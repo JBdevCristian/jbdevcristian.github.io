@@ -50,7 +50,7 @@
 }
 
 .animacao {
-  animation: fundo 0.2s linear 0s 1 normal forwards;
+  animation: fundo 0.5s linear 0s 1 normal forwards;
 }
 
 @keyframes animacao {
