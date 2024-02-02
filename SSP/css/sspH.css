@@ -1,7 +1,7 @@
 /*Navbar*/
 .navBG {
   padding: 15px;
-  background-color: #4747D3;
+  background-color: #3e3eda;
   border-bottom: 5px solid #2E2E94;
 }
 
@@ -81,36 +81,18 @@
 /*Icone caco chat*/
 .cacoH img {
   border: 2px solid #29298C;
-  width: 90px;
   border-radius: 100%;
   cursor: pointer;
   animation: pulse-animation 1.5s infinite;
-  margin-bottom: 20px;
+  width: 125px;
 }
 
-@media (min-width: 576px) {
-  .cacoH {
-    display: flex;
-    padding-top: 400px;
-    padding-left: 400px;
-  }
-}
-
-
-@media (min-width: 768px) {
-  .cacoH {
-    display: flex;
-    padding-top: 380px;
-    padding-left: 550px;
-  }
-}
-
-@media (min-width: 1000px) {
-  .cacoH {
-    display: flex;
-    padding-top: 500px;
-    padding-left: 325px;
-  }
+.chat-image {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  right: 0;
+  position: absolute;
+  bottom: 0;
 }
 
 /*Animação pulse caco icone*/
