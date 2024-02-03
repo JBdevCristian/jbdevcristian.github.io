@@ -408,7 +408,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }, 1500); // Aguarda 1 segundo antes de incorporar a resposta específica
  }
  
- //O que transferir para PSS?	
+ //O que transferir para Integrações?	
  var botao5 = document.getElementById('5');
  botao5.addEventListener('click', handleBotao5);
  
@@ -432,9 +432,9 @@ document.addEventListener('DOMContentLoaded', function () {
    <div class="col-11">
        <div class="ms-3">
            <div class="box-texto">
-               <h5 class="text-center mb-2">O que transferir para PSS?</h5>
+               <h5 class="text-center mb-2">O que transferir para Integrações?</h5>
                <hr>
-               <p><b>Ótima pergunta, atualmente o time de PSS atende:</b></p>
+               <p><b>Ótima pergunta, atualmente o time de Integrações atende:</b></p>
                <ul>
                  <li>Dúvidas de integração (Precisa ter alguns requisitos para ser feita a transferéncia)</li>
                  <li>Testes de pagamentos de integração</li>
@@ -445,7 +445,7 @@ document.addEventListener('DOMContentLoaded', function () {
                <p class="text-warning" style="font-style: italic; font-size: 13px;">Caso o cliente queira adquirir esse produto em sua conta, basta direcioná-lo ao paypal para darmos a orientação.</p>
                <div class="text-center botoes d-grid">
                    <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="naoAtendemos()">O que não atendemos</button>
-                   <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="handleBotao7()">O que analisar antes de ligar para PSS</button>
+                   <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="handleBotao7()">O que analisar antes de ligar para Integrações</button>
                    <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="handleBotao6()">O que é necessário para o teste de pagamento?</button>
                    <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="rolarParaOTopo()">Voltar para inicio</button>
                </div>
@@ -519,7 +519,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }, 1500); // Aguarda 1 segundo antes de incorporar a resposta específica
  }
  
- //O que analisar antes de ligar para PSS?
+ //O que analisar antes de ligar para Integrações?
  var botao7 = document.getElementById('7');
  botao7.addEventListener('click', handleBotao7);
  
@@ -543,9 +543,9 @@ document.addEventListener('DOMContentLoaded', function () {
          <div class="col-11">
              <div class="ms-3">
                  <div class="box-texto">
-                     <h5 class="text-center mb-2">O que analisar antes de ligar para PSS?</h5>
+                     <h5 class="text-center mb-2">O que analisar antes de ligar para Integrações?</h5>
                      <hr>
-                     <p>É muito importante que você <b class="text-warning">verifique qual o tipo de conta</b>, pois em PSS <b class="text-warning">só atendemos contas premier e business</b>, verifique se o e-mail do cliente está confirmado, pois para recebimentos de pagamento o <b class="text-warning">e-mail precisaria estar confirmado.</b></p>
+                     <p>É muito importante que você <b class="text-warning">verifique qual o tipo de conta</b>, pois em Integrações <b class="text-warning">só atendemos contas premier e business</b>, verifique se o e-mail do cliente está confirmado, pois para recebimentos de pagamento o <b class="text-warning">e-mail precisaria estar confirmado.</b></p>
                      <hr>
                        <li>Se atente se a conta do cliente está limitada, o que impede qualquer tipo de integração</li>
                        <li>Verificar se o e-mail está confirmado</li>
@@ -646,7 +646,7 @@ document.addEventListener('DOMContentLoaded', function () {
                  <div class="box-texto">
                      <h5 class="text-center mb-2">Recusas de pagamentos nas integrações.</h5>
                      <hr>
-                     <p>Imagine um cenário onde o cliente entra em contato apenas informando que o cliente dele não está conseguindo pagar em seu site.  Antes de entrar em contato com o setor de PSS deve verificar se não se trata de um Denied ou Risk Model</p>
+                     <p>Imagine um cenário onde o cliente entra em contato apenas informando que o cliente dele não está conseguindo pagar em seu site.  Antes de entrar em contato com o setor de Integrações deve verificar se não se trata de um Recusa por parte do cartão ou Analise sistemica</p>
                      <hr />
                      <p class="mt-4"><b class="text-warning">Quando houver uma solicitação parecida como essa, deve verificar se:</b></p>
                      <ul>
@@ -654,8 +654,7 @@ document.addEventListener('DOMContentLoaded', function () {
                        <li>Perguntar quantos clientes estão tendo esse problema (no caso, se for apenas 1 verificar as tentativas de transação). Se passar de mais de 1 cliente, precisa ser direcionado ao time para analisar a integração.</li>
                        <li>Verificar a conta do cliente (pergunte ao vendedor se possui o endereço de e-mail do cliente)</li>
                        <hr />
-                       <p>Ou seja, se atende alguns desses critérios, <b class="text-warning">possivelmente se trata de um denied ou riskmodel</b>, caso seja, simplesmente informe <b class="text-warning">como funciona a análise de pagamento realizada pela Paypal e oriente que o cliente dele entre em contato para darmos mais detalhes.</b></p>
-                       <p class="fst-italic mt-5 text-warning">HELP419</p>
+                       <p>Ou seja, se atende alguns desses critérios, <b class="text-warning">possivelmente se trata de um Recusa por parte do cartão ou uma analise sistemica</b>, caso seja, simplesmente informe <b class="text-warning">como funciona a análise de pagamento realizada pela Paypal e oriente que o cliente dele entre em contato para darmos mais detalhes.</b></p>
                      </ul>
                      <hr>
                      <div class="text-center botoes d-grid">
@@ -975,7 +974,7 @@ document.addEventListener('DOMContentLoaded', function () {
                      <hr>
                      <p>Para utilizar a integração Express checkout, é necessário que o cliente tenha uma conta no mínimo Premier.</p>
                      <p class="text-warning">Importante saber que as plataformas atualmente estão apenas utilizando contas de perfil Bussines sendo necessário entrar em contato com o mesmo para saber se o perfil da conta é aceita, tudo bem?</p>
-                     <p>PS: é uma integração que já vem ativa na conta, não precisa ter uma escalação, caso o cliente queira integrar basta entrar em contato com o time de PSS</p>
+                     <p>PS: é uma integração que já vem ativa na conta, não precisa ter uma escalação, caso o cliente queira integrar basta entrar em contato com o time de Integrações</p>
                      <div class="text-center botoes d-grid">
                        <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="rolarParaOTopo()">Voltar para inicio</button>
                      </div>
@@ -1073,7 +1072,7 @@ document.addEventListener('DOMContentLoaded', function () {
                      <p>O Botão de doação na finalização de compra permite que você doe para instituições de caridade ao concluir uma compra. Basta clicar na caixa de seleção de doações durante a finalização da compra se quiser apoiar a instituição de caridade que aparece para você.</p>
                      <p class="text-warning">O botão de doação só está disponível para contas ONG (Sem fins lucrativos).</p>
                      <hr>
-                     <p>Caso o cliente deseja utilizar basta conferir se a conta é CNPJ e se está com o perfil <b class="text-warning">NOPROFIT</b> depois disso só <b class="text-warning">entrar em contato com PSS</b> que orientamos o mesmo.</p>
+                     <p>Caso o cliente deseja utilizar basta conferir se a conta é CNPJ e se está com o perfil <b class="text-warning">NOPROFIT</b> depois disso só <b class="text-warning">entrar em contato com Integrações</b> que orientamos o mesmo.</p>
                      <div class="text-center botoes d-grid">
                        <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="rolarParaOTopo()">Voltar para inicio</button>
                      </div>
@@ -1111,13 +1110,13 @@ document.addEventListener('DOMContentLoaded', function () {
          <div class="col-11">
              <div class="ms-3">
                  <div class="box-texto">
-                     <h5 class="text-center mb-2">Botão de Doação</h5>
+                     <h5 class="text-center mb-2">Botão de assinatura</h5>
                      <hr>
                      <p>Maravilha, dá uma olhadinha do que é preciso ter para utilizar essa integração. 	😁</p>
                      <hr>
                      <p>Com o Botão de assinatura você pode usar o botão Assinar para cobrar os clientes regularmente, cobrar as tarifas de assinatura ou oferecer serviços de assinatura (Exemplo: Netflix, Disney, Amazon, etc...) Nós fornecemos um código HTML que você pode copiar e colar no código do seu site.</p>
                      <hr>
-                     <p>Caso o cliente deseja utilizar basta conferir se a conta é CNPJ ou Premier e se está com o E-mail <b class="text-warning">Confirmado</b> depois disso só <b class="text-warning">entrar em contato com PSS</b> que orientamos o mesmo.</p>
+                     <p>Caso o cliente deseja utilizar basta conferir se a conta é CNPJ ou Premier e se está com o E-mail <b class="text-warning">Confirmado</b> depois disso só <b class="text-warning">entrar em contato com Integrações</b> que orientamos o mesmo.</p>
                      <div class="text-center botoes d-grid">
                        <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="rolarParaOTopo()">Voltar para inicio</button>
                      </div>
@@ -1172,7 +1171,7 @@ document.addEventListener('DOMContentLoaded', function () {
                      <hr>
                      <p class="text-warning">O prazo para análise e retorno é de 10 dias úteis, depois da escalação apenas deixar nota em conta com as informações preenchidas.</p>
                      <hr>
-                     <p class="text-warning" style="font-style: italic; font-size: 13px;">PS: Qualquer dúvida se o cliente te ou não o pagamento referenciado ativo em conta entrar em contato com PSS</p>
+                     <p class="text-warning" style="font-style: italic; font-size: 13px;">PS: Qualquer dúvida se o cliente te ou não o pagamento referenciado ativo em conta entrar em contato com Integrações</p>
                      <div class="text-center botoes d-grid">
                        <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="rolarParaOTopo()">Voltar para inicio</button>
                      </div>
