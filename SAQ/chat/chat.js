@@ -200,7 +200,7 @@ document.addEventListener('DOMContentLoaded', function () {
                              <img class="mx-auto d-block imagem1" alt="Imagem" onclick="zoomImg('img1', 'perguntas/paypal plus.png')" src="perguntas/paypal plus.png" alt="">
                              <hr>
                              <div class="text-center botoes d-grid">
-                                 <button value="Escalações" class="btn btn-success btn-sm" onclick="escalacaoPP()">Escalação</button>
+                                 <button value="Solicitação " class="btn btn-success btn-sm" onclick="escalacaoPP()">Analise</button>
                                  <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="rolarParaOTopo()">Voltar para inicio</button>
                              </div>
                          </div>
@@ -255,10 +255,10 @@ document.addEventListener('DOMContentLoaded', function () {
                              <hr>
                              <h5 class="text-center mb-2">Dá uma olhada em como é dentro de um site:</h5>
                              <img class="mx-auto d-block imagem2"alt="imagem" onclick="zoomImg('img2', 'perguntas/EC.png')" src="perguntas/EC.png">
-                             <p class="fst-italic mt-3" style="font-size: 12px;"><b class="text-warning">PS:</b> Não é necessário escalação, já vem ativo na conta.<p>
+                             <p class="fst-italic mt-3" style="font-size: 12px;"><b class="text-warning">PS:</b> Não é necessário Analise, já vem ativo na conta.<p>
                              <hr>
                              <div class="text-center botoes d-grid">
-                                 <button value="Escalações" onclick="ecDuvida()" class="btn btn-success btn-sm">O que é necessário para ter</button>
+                                 <button value="Solicitação " onclick="ecDuvida()" class="btn btn-success btn-sm">O que é necessário para ter</button>
                                  <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="rolarParaOTopo()">Voltar para inicio</button>
                              </div>
                          </div>
@@ -317,7 +317,7 @@ document.addEventListener('DOMContentLoaded', function () {
                    <h5 class="text-warning">Script:</h5>
                    <p>Certinho vou te explicar qual a diferença entre as duas, <b class="text-warning">caso você queira que seus clientes realizem os pagamentos utilizando a conta paypal ou queira vender em outra moeda</b>, o mais indicado para você seria o <b class="text-warning">ExpressCheckout</b>, mas caso queira que <b class="text-warning">seus clientes somente utilizem o cartão no seu site o mais indicado seria o Paypal plus (checkout transparente)</b> cliente não precisa ter uma conta somente colocar as informações do cartão de crédito, <b class="text-warning">lembrando que para ter a integração paypal plus precisar escalar para aprovação e logo em seguida se tiver tudo certinho poderá utilizar essa integração.</b></p>
                    <div class="text-center botoes d-grid">
-                      <button value="Escalações" class="btn btn-success btn-sm" onclick="escalacaoPP()">Escalação</button>
+                      <button value="Solicitação    " class="btn btn-success btn-sm" onclick="escalacaoPP()">Analise</button>
                        <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="rolarParaOTopo()">Voltar para inicio</button>
                    </div>
                </div>
@@ -494,7 +494,7 @@ document.addEventListener('DOMContentLoaded', function () {
                  <hr>
                  <p></p>
                  <ul>
-                   <li>Contas Premier ou Bussines</li>
+                   <li>Contas CPF ou CNPJ</li>
                    <li>E-mail confirmado</li>
                    <li>Site ativo</li>
                    <li>Plataforma que está utilizando atualmente ou se é desenvolvedor próprio</li>
@@ -545,11 +545,11 @@ document.addEventListener('DOMContentLoaded', function () {
                  <div class="box-texto">
                      <h5 class="text-center mb-2">O que analisar antes de ligar para Integrações?</h5>
                      <hr>
-                     <p>É muito importante que você <b class="text-warning">verifique qual o tipo de conta</b>, pois em Integrações <b class="text-warning">só atendemos contas premier e business</b>, verifique se o e-mail do cliente está confirmado, pois para recebimentos de pagamento o <b class="text-warning">e-mail precisaria estar confirmado.</b></p>
+                     <p>É muito importante que você <b class="text-warning">verifique qual o tipo de conta</b>, pois em Integrações <b class="text-warning">só atendemos contas CPF e CNPJ</b>, verifique se o e-mail do cliente está confirmado, pois para recebimentos de pagamento o <b class="text-warning">e-mail precisaria estar confirmado.</b></p>
                      <hr>
                        <li>Se atente se a conta do cliente está limitada, o que impede qualquer tipo de integração</li>
                        <li>Verificar se o e-mail está confirmado</li>
-                       <li>Tipo de conta (premier ou business).</li>
+                       <li>Tipo de conta (CPF ou CNPJ).</li>
                      </ul>
                      <hr>
                      <div class="text-center botoes d-grid">
@@ -705,7 +705,7 @@ document.addEventListener('DOMContentLoaded', function () {
                      <p><b class="text-warning">Neste processo, o comprador autoriza o vendedor a cobrar qualquer valor em sua conta PayPal, sempre que ele quiser, sem limite de valor e tempo.</b></p>
                      <hr>
                      <div class="text-center botoes d-grid">
-                       <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="nessReferenciado()">O que é necessário para escalação?</button>
+                       <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="nessReferenciado()">O que é necessário para Analise?</button>
                        <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="rolarParaOTopo()">Voltar para inicio</button>
                      </div>
                  </div>
@@ -809,7 +809,7 @@ document.addEventListener('DOMContentLoaded', function () {
                              <li>Pagamentos pendentes</li>
                              <li>Cobranças recorrentes e assinaturas</li>
                              <li>Autorizações</li>
-                             <li>Disputas, estornos, reversões e reembolsos</li>
+                             <li>Contestações, estornos e reembolsos</li>
                          </ul>
                          <hr>
                          <div class="text-center botoes d-grid">
@@ -832,7 +832,7 @@ document.addEventListener('DOMContentLoaded', function () {
  
  }
  
- //escalação
+ //Analise
  var botao13 = document.getElementById('13');
  botao13.addEventListener('click', handleBotao13);
  
@@ -857,15 +857,15 @@ document.addEventListener('DOMContentLoaded', function () {
          <div class="col-11">
              <div class="ms-3">
                  <div class="box-texto">
-                     <h5 class="text-center mb-2">Escalações</h5>
+                     <h5 class="text-center mb-2">Solicitação   </h5>
                      <hr>
                      <p>Vou te ajudar com isso 😉</p>
-                     <p><b>Qual tipo de escalação está procurando ?</b></p>
+                     <p><b>Qual tipo de Analise está procurando ?</b></p>
                      <hr>
                      <div class="text-center botoes d-grid">
                        <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="escalacaoPP()">Paypal Plus</button>
-                       <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="nessReferenciado">Pagamento referenciado</button>
-                       <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="Pending()">Pending On Boarding</button>
+                       <button value="Voltar para inicio" class="btn btn-success btn-sm disabled" onclick="nessReferenciado">Pagamento referenciado</button>
+                       <button value="Voltar para inicio" class="btn btn-success btn-sm disabled" onclick="Pending()">Pendencia de Pagamento</button>
                        <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="rolarParaOTopo()">Voltar para inicio</button>
                      </div>
                  </div>
@@ -905,30 +905,24 @@ document.addEventListener('DOMContentLoaded', function () {
          <div class="col-11">
              <div class="ms-3">
                  <div class="box-texto">
-                     <h5 class="text-center mb-2">Escalação Paypal plus</h5>
+                     <h5 class="text-center mb-2">Aqui ficaria script de Analise</h5>
                      <hr>
                      <p>Boa ai sim, segue o que é necessário para escalar no Intranet 😉</p>
                      <hr>
                      <ul>
-                       <li>TPV Anual: R$XXX (Faturamento anual do cliente ou estimativa)</li>
-                       <li>Nome Completo: XXX</li>
-                       <li>Razão Social: XXX (Pode ser consultada por https://www.situacao-cadastral.com/ )</li>
-                       <li>CNPJ: XXX</li>
-                       <li>URL do Site: XXX</li>
-                       <li>Telefone: XXX</li>
-                       <li>E-mail: XXX</li>
-                       <li>Porcentagem de Recebimento pelo PayPal (SOW): XXX% PayPal (Se o cliente recebe metade pelo PayPal, e metade por outro método de pagamento)</li>
-                       <li>Valor médio de recebimento por cliente: R$XXX </li>
-                       <li>Plataforma para hospedar ou desenvolvedor próprio: XXX</li>
-                       <li>MCC: XXX</li>
+                       <li>Informação de Analise: XXX</li>
+                       <li>Informação de Analise: XXX</li>
+                       <li>Informação de Analise: XXX</li>
+                       <li>Informação de Analise: XXX</li>
+                       <li>Informação de Analise: XXX</li>
+                       <li>Informação de Analise: XXX</li>
+                       <li>Informação de Analise: XXX</li>
+                       <li>Informação de Analise: XXX</li>
+                       <li>Informação de Analise: XXX</li>
+                       <li>Informação de Analise: XXX</li>
+                       <li>Informação de Analise: XXX</li>
                      </ul>
-                     <p> <b class="text-warning">Após pegar essas informações, será necessário adicionar a nota com tudo preenchido na conta do cliente e orientar que o prazo médio é de 1 a 5 dias uteis, podendo se estender.</b></p>
-                     <hr>
-                     <div style="font-style: italic; font-size: 13px;">
-                       <p>Área Ofender: <b class="text-warning">Integração.</b></p>
-                       <p>Situação Ofender: <b class="text-warning">PayPal Plus<b></p>
-                       <p>Sênior Responsável.</p>
-                     </div>
+                     <p> <b class="text-warning">Nota adicional sobre prazo médio</b></p>
                      <div class="text-center botoes d-grid">
                        <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="rolarParaOTopo()">Voltar para inicio</button>
                      </div>
@@ -972,9 +966,9 @@ document.addEventListener('DOMContentLoaded', function () {
                      <hr>
                      <p>Boa ai sim, otima pergunta.</p>
                      <hr>
-                     <p>Para utilizar a integração Express checkout, é necessário que o cliente tenha uma conta no mínimo Premier.</p>
-                     <p class="text-warning">Importante saber que as plataformas atualmente estão apenas utilizando contas de perfil Bussines sendo necessário entrar em contato com o mesmo para saber se o perfil da conta é aceita, tudo bem?</p>
-                     <p>PS: é uma integração que já vem ativa na conta, não precisa ter uma escalação, caso o cliente queira integrar basta entrar em contato com o time de Integrações</p>
+                     <p>Para utilizar a integração Express checkout, é necessário que o cliente tenha uma conta no mínimo CPF.</p>
+                     <p class="text-warning">Importante saber que as plataformas atualmente estão apenas utilizando contas de perfil CNPJ sendo necessário entrar em contato com o mesmo para saber se o perfil da conta é aceita, tudo bem?</p>
+                     <p><b class="text-warning">PS:<b> é uma integração que já vem ativa na conta, não precisa ter uma Analise, caso o cliente queira integrar basta entrar em contato com o time de Integrações</p>
                      <div class="text-center botoes d-grid">
                        <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="rolarParaOTopo()">Voltar para inicio</button>
                      </div>
@@ -1019,7 +1013,7 @@ document.addEventListener('DOMContentLoaded', function () {
                      <p>Boa ai sim, obrigado por perguntar, segue a baixo uma listinha do que não conseguimos prestar suporte.</p>
                      <hr>
                       <ul>
-                         <li>Contas Personal - mesmo que seja apenas para passar uma orientação, não podemos atender porque não atende os critérios de transferência tipo gerar credenciais que seria necessário.</li>
+                         <li>Contas Pessoais - mesmo que seja apenas para passar uma orientação, não podemos atender porque não atende os critérios de transferência tipo gerar credenciais que seria necessário.</li>
                          <li>Solicitação de integração</li>
                          <li>Parcelamento/manual</li>
                          <li>Faturas</li>
@@ -1067,12 +1061,10 @@ document.addEventListener('DOMContentLoaded', function () {
                  <div class="box-texto">
                      <h5 class="text-center mb-2">Botão de Doação</h5>
                      <hr>
-                     <p>Maravilha, dá uma olhadinha do que é preciso ter para utilizar essa integração. 	😁</p>
+                     <p>Maravilha, dá uma olhadinha do que é preciso ter para utilizar essa integração. 😁</p>
                      <hr>
                      <p>O Botão de doação na finalização de compra permite que você doe para instituições de caridade ao concluir uma compra. Basta clicar na caixa de seleção de doações durante a finalização da compra se quiser apoiar a instituição de caridade que aparece para você.</p>
                      <p class="text-warning">O botão de doação só está disponível para contas ONG (Sem fins lucrativos).</p>
-                     <hr>
-                     <p>Caso o cliente deseja utilizar basta conferir se a conta é CNPJ e se está com o perfil <b class="text-warning">NOPROFIT</b> depois disso só <b class="text-warning">entrar em contato com Integrações</b> que orientamos o mesmo.</p>
                      <div class="text-center botoes d-grid">
                        <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="rolarParaOTopo()">Voltar para inicio</button>
                      </div>
@@ -1116,7 +1108,7 @@ document.addEventListener('DOMContentLoaded', function () {
                      <hr>
                      <p>Com o Botão de assinatura você pode usar o botão Assinar para cobrar os clientes regularmente, cobrar as tarifas de assinatura ou oferecer serviços de assinatura (Exemplo: Netflix, Disney, Amazon, etc...) Nós fornecemos um código HTML que você pode copiar e colar no código do seu site.</p>
                      <hr>
-                     <p>Caso o cliente deseja utilizar basta conferir se a conta é CNPJ ou Premier e se está com o E-mail <b class="text-warning">Confirmado</b> depois disso só <b class="text-warning">entrar em contato com Integrações</b> que orientamos o mesmo.</p>
+                     <p>Caso o cliente deseja utilizar basta conferir se a conta é CNPJ ou CPF e se está com o E-mail <b class="text-warning">Confirmado</b> depois disso só <b class="text-warning">entrar em contato com Integrações</b> que orientamos o mesmo.</p>
                      <div class="text-center botoes d-grid">
                        <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="rolarParaOTopo()">Voltar para inicio</button>
                      </div>
@@ -1154,24 +1146,27 @@ document.addEventListener('DOMContentLoaded', function () {
          <div class="col-11">
              <div class="ms-3">
                  <div class="box-texto">
-                     <h5 class="text-center mb-2">Escalação Pagamento Referenciado</h5>
+                     <h5 class="text-center mb-2">Analise Pagamento Referenciado</h5>
                      <hr>
                      <p>Maravilha, dá uma olhadinha do que é preciso ter para utilizar esse produto 	😁</p>
                      <hr>
                      <ul>
-                       <li>Nome da empresa:  </li>
-                       <li>URL do site da loja: </li>
-                       <li>Numero de clientes recorrentes nos últimos 3 meses: </li>
-                       <li>Valor das vendas mensais:  </li>
-                       <li>Como pretende usar a integração referenciada: </li>
-                       <li>O produto solicitado é para utilizar no carrinho:  </li>
-                       <li>O comprador vai precisar iniciar manualmente cada pagamento ou será feito automático a partir do contrato de cobrança feito:  </li>
-                       <li>Está utilizado plataforma para hospedar site ou desenvolvedor próprio:</li>
+                        <li>Informação de Analise: XXX</li>
+                        <li>Informação de Analise: XXX</li>
+                        <li>Informação de Analise: XXX</li>
+                        <li>Informação de Analise: XXX</li>
+                        <li>Informação de Analise: XXX</li>
+                        <li>Informação de Analise: XXX</li>
+                        <li>Informação de Analise: XXX</li>
+                        <li>Informação de Analise: XXX</li>
+                        <li>Informação de Analise: XXX</li>
+                        <li>Informação de Analise: XXX</li>
+                        <li>Informação de Analise: XXX</li>
                      </ul>
                      <hr>
-                     <p class="text-warning">O prazo para análise e retorno é de 10 dias úteis, depois da escalação apenas deixar nota em conta com as informações preenchidas.</p>
+                     <p class="text-warning">O prazo para análise e retorno é de 10 dias úteis, depois da Analise apenas deixar nota em conta com as informações preenchidas.</p>
                      <hr>
-                     <p class="text-warning" style="font-style: italic; font-size: 13px;">PS: Qualquer dúvida se o cliente te ou não o pagamento referenciado ativo em conta entrar em contato com Integrações</p>
+                     <p class="text-warning" style="font-style: italic; font-size: 13px;">PS: Qualquer dúvida se o cliente tem ou não o pagamento referenciado ativo em conta entrar em contato com Integrações</p>
                      <div class="text-center botoes d-grid">
                        <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="rolarParaOTopo()">Voltar para inicio</button>
                      </div>
@@ -1200,35 +1195,7 @@ document.addEventListener('DOMContentLoaded', function () {
     setTimeout(function () {
        // Mensagem correspondente ao clique no botão com id="2"
        var Pending = `
-         <div class="caixaBot mt-2 row d-flex">
-         <div class="col-1">
-             <div class="box-imagem">
-                 <img src="cacoIcone.png" alt="" />
-             </div>
-         </div>
-         <div class="col-11">
-             <div class="ms-3">
-                 <div class="box-texto">
-                     <h5 class="text-center mb-2">Pending On Boarding</h5>
-                     <hr>
-                     <p>Maravilha, dá uma olhadinha do que é preciso ter para resolver esse problema	😁</p>
-                     <hr>
-                     <p>Para os cenários de pagamentos com status de Pending partner Onboarding, foi identificado que é possível reverter (via Spark), desde que a pessoa vendedora nos contate e não tenha enviado produto/serviço vendido.</p>
-                     <p>Caso a pessoa vendedora tenha enviado o item, precisamos entender se é a primeira vez que isso acontece, para coletar prints da evidência da entrega, entender o que é comercializado e analisar a conta no CCI, para ver a disponibilidade do CT e seguir com a orientação correta para o cliente, de que, isso está relacionado ao meio de integração e a plataforma, que ele deverá alterar a forma de integrar o paypal, pois, os próximos pagamentos também poderão ficar com esse status.</p>
-                     <p><b class="text-warning">Importante: </b> O fluxo de ct está em validação, caso tenhamos qualquer novo update, avisaremos o mais breve. Todas as contas com esse cenário, deverão ser escaladas para consolidar e sinalizar ao time Paypal, que está atuando em uma melhoria para esse cenário.</p>
-                     <hr>
-                     <div style="font-style: italic; font-size: 13px;">
-                     <p><b class="text-warning">Área Offender:</b>Integração Brasil</p>
-                     <p><b class="text-warning">Situação Offender:</b>Pending On Boarding </p>
-                     </div>
-                     <hr>
-                     <div class="text-center botoes d-grid">
-                       <button value="Voltar para inicio" class="btn btn-success btn-sm" onclick="rolarParaOTopo()">Voltar para inicio</button>
-                     </div>
-                 </div>
-             </div>
-         </div>
-       </div>
+
          `;
  
        // Adiciona a resposta específica ao conteúdo do usuário
