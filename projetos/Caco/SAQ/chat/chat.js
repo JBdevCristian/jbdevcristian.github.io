@@ -138,12 +138,18 @@ document.getElementById("enviar").addEventListener("click", function() {
     // Converter a pergunta para minúsculas
     pergunta = pergunta.toLowerCase();
 
-    // Verificar se a pergunta tem uma resposta no backend
-    if (respostasDoBackend.hasOwnProperty(pergunta)) {
-       adicionarResposta(respostasDoBackend[pergunta], "caixaResposta");
-    } else {
-       adicionarResposta("Putz cara não to sabendo falar", "caixaResposta erro");
-    }
+    let respostaEncontrada = "Putz cara não to sabendo falar";
+
+    // Iterar sobre as chaves do objeto respostasDoBackend
+    Object.keys(respostasDoBackend).forEach(function(perguntaChave) {
+        // Verificar se a pergunta do usuário corresponde à chave do objeto respostasDoBackend
+        if (pergunta === perguntaChave.toLowerCase()) {
+            respostaEncontrada = respostasDoBackend[perguntaChave];
+        }
+    });
+
+    // Adicionar a resposta encontrada ou a mensagem de erro à interface do usuário
+    adicionarResposta(respostaEncontrada);
 
     // Limpar o campo de entrada depois de enviar
     inputPergunta.value = "";
