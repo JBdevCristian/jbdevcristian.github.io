@@ -102,8 +102,24 @@ document.addEventListener('DOMContentLoaded', function () {
     rolarParaOFinal()
  }
  
- // Evento de clique no botão "enviar"
- document.getElementById("enviar").addEventListener("click", incorporarMensagem);
+// Função para verificar se o campo de entrada está vazio
+function verificarCampoVazio() {
+    var inputPergunta = document.getElementById("perguntasUsuario");
+    return !inputPergunta.value.trim();
+}
+
+// Adicionar um listener de evento ao botão de enviar para chamar a função enviarPergunta
+document.getElementById("enviar").addEventListener("click", function() {
+    // Verificar se o campo de entrada está vazio
+    if (verificarCampoVazio()) {
+        console.log("Campo de entrada vazio. Por favor, insira uma pergunta válida.");
+        return; // Não enviar a pergunta se o campo estiver vazio
+    }
+
+    // Chamar a função enviarPergunta se o campo de entrada não estiver vazio
+    incorporarMensagem();
+    enviarPergunta()
+});
  
  // Simulação de respostas do backend
  const respostasDoBackend = {
@@ -113,25 +129,33 @@ document.addEventListener('DOMContentLoaded', function () {
     "adeus": "Até logo!",
     // Adicione outras respostas conforme necessário
  };
+
  
- // Função para enviar pergunta e obter resposta
  function enviarPergunta() {
     var inputPergunta = document.getElementById("perguntasUsuario");
-    var pergunta = inputPergunta.value.toLowerCase(); // Converter para minúsculas para garantir correspondência
- 
+    var pergunta = inputPergunta.value.trim(); // Remover espaços em branco antes e depois da pergunta
+
+    // Converter a pergunta para minúsculas
+    pergunta = pergunta.toLowerCase();
+
     // Verificar se a pergunta tem uma resposta no backend
     if (respostasDoBackend.hasOwnProperty(pergunta)) {
        adicionarResposta(respostasDoBackend[pergunta], "caixaResposta");
     } else {
        adicionarResposta("Putz cara não to sabendo falar", "caixaResposta erro");
     }
- 
+
     // Limpar o campo de entrada depois de enviar
     inputPergunta.value = "";
- }
+}
  
- // Função para adicionar resposta ao chat
- function adicionarResposta(resposta, classe) {
+function adicionarResposta(resposta, classe) {
+    // Verificar se a resposta está vazia ou contém apenas espaços em branco
+    if (!resposta.trim()) {
+        console.log("Resposta vazia. Não será incorporada no HTML.");
+        return; // Anular a incorporação se a resposta estiver vazia
+    }
+
     var novaCaixaResposta = document.createElement("div");
     novaCaixaResposta.className = classe + " mt-2 row d-flex";
  
@@ -156,11 +180,9 @@ document.addEventListener('DOMContentLoaded', function () {
     conteudoUsuario.appendChild(novaCaixaResposta);
  
     rolarParaOFinal();
- }
- 
- 
- // Evento de clique no botão "enviar"
- document.getElementById("enviar").addEventListener("click", enviarPergunta);
+}
+
+
  
  
  // Paypal Plus (Checkout transparente)
