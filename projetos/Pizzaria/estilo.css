@@ -1,0 +1,213 @@
+
+@font-face {
+    font-family: 'Russian';
+    src: url('Font/Russian.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.efeitoSombra {
+    -webkit-box-shadow: 0px 0px 35px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 35px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 35px -6px rgba(0,0,0,0.75);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Russian';
+    font-weight: normal;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-image: url("imagens BG/bg.png");
+    overflow-x: hidden;
+}
+
+span {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fundoNav {
+    background-color: black;
+}
+
+.fundoNav a{
+    color: white;
+}
+
+.nav-link:hover {
+    color: rgb(111, 111, 111);
+}
+
+
+nav img {
+    width: 125px;
+    margin-left: 75px;
+    margin-right: 200px;
+}
+
+.banner{
+    background-image: url('imagens BG/1344285.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+}
+
+.banner1 {
+    margin-top: 50px;
+    background-image: url('imagens BG/1344283.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+}
+
+/*Editando link*/
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/*Conteiner 1*/
+.textoContainer {
+    padding-top: 50px;
+    color: black;
+}
+
+.textoContainer a {
+    color: black;
+}
+
+.textoContainer p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Container 2*/
+
+.textoContainer2 {  
+    color: white;
+    background-image: url("imagens BG/fundo.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 35%;
+    background-size: 2000px 250px;
+}
+
+.textoContainer2 img {
+    width: 450px;
+}
+
+.textoContainer2 p {
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.teste1 {
+    -webkit-box-shadow: -5px -11px 40px -14px rgba(255,255,255,1);
+    -moz-box-shadow: -5px -11px 40px -14px rgba(255,255,255,1);
+    box-shadow: -5px -11px 40px -14px rgba(255,255,255,1);
+}
+
+/*Container 2 Cell*/
+.container2-cell {
+    padding: 25px;
+    border-top: 8px solid #009f13;
+    border-bottom: 8px solid #fd0000;
+    color: white;
+    background-repeat: no-repeat;
+    background-position-y: 35%;
+    background-image: url("imagens BG/fundo.jpg");
+}
+
+.container2-cell p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Conteiner 3*/
+.container3 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-image: url("imagens BG/bg.png");
+    overflow-x: hidden;
+    margin-bottom: 25px;
+}
+
+.container3 img {
+    width: 400px;
+    border-radius: 25px;
+    -webkit-box-shadow: 0px 0px 35px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 35px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 35px -6px rgba(0,0,0,0.75);
+}
+
+
+/*Container 4*/
+
+.container4 {
+    background-color: black;
+    color: white;
+    background-image: url("imagens BG/bg.png");
+}
+
+.container4 h5 {
+    margin-top: 125px;
+}
+
+/*Rodape*/
+footer {
+    border-bottom: 7px solid #009f13;
+    border-top: 7px solid #bf0000;
+    background-color: black;
+    background-image: url("imagens BG/bg.png");
+    color: white;
+}
+
+
+/*Container 5*/
+
+.clientes img {
+    margin: 9px;
+    width: 300px; 
+    height: 250px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 35px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 35px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 35px -6px rgba(0,0,0,0.75);
+}
+
+.item-list {
+    display: flex;
+    animation: moveItems 15s linear infinite;
+    white-space: nowrap;
+}
+
+@keyframes moveItems {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+
+  /*Animações*/
+  .pulse {
+    animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
