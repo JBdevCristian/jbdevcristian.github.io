@@ -20,7 +20,7 @@ body {
     font-weight: normal;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    background-image: url("imagens BG/bg.png");
+    background-image: url("img/bg.png");
     overflow-x: hidden;
 }
 
@@ -49,7 +49,7 @@ nav img {
 }
 
 .banner{
-    background-image: url('imagens BG/1344285.png');
+    background-image: url('img/1344285.png');
     background-repeat: no-repeat;
     background-position: center;
     height: 450px;
@@ -57,7 +57,7 @@ nav img {
 
 .banner1 {
     margin-top: 50px;
-    background-image: url('imagens BG/1344283.png');
+    background-image: url('img/1344283.png');
     background-repeat: no-repeat;
     background-position: center;
     height: 450px;
@@ -88,7 +88,7 @@ a {
 
 .textoContainer2 {  
     color: white;
-    background-image: url("imagens BG/fundo.jpg");
+    background-image: url("img/fundo.jpg");
     background-repeat: no-repeat;
     background-position-y: 35%;
     background-size: 2000px 250px;
@@ -119,7 +119,7 @@ a {
     color: white;
     background-repeat: no-repeat;
     background-position-y: 35%;
-    background-image: url("imagens BG/fundo.jpg");
+    background-image: url("img/fundo.jpg");
 }
 
 .container2-cell p{
@@ -131,7 +131,7 @@ a {
 .container3 {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    background-image: url("imagens BG/bg.png");
+    background-image: url("img/bg.png");
     overflow-x: hidden;
     margin-bottom: 25px;
 }
@@ -150,7 +150,7 @@ a {
 .container4 {
     background-color: black;
     color: white;
-    background-image: url("imagens BG/bg.png");
+    background-image: url("img/bg.png");
 }
 
 .container4 h5 {
@@ -162,7 +162,7 @@ footer {
     border-bottom: 7px solid #009f13;
     border-top: 7px solid #bf0000;
     background-color: black;
-    background-image: url("imagens BG/bg.png");
+    background-image: url("img/bg.png");
     color: white;
 }
 
