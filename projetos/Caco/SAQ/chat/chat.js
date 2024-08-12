@@ -167,7 +167,7 @@ function adicionarHtmlCarregamento() {
              <div class="row d-flex">
                  <div class="col-1">
                      <div class="box-imagem">
-                         <img src="assets/img/cacoIcone.png" alt="" />
+                         <img src="cacoIcone.png" alt="" />
                      </div>
                  </div>
                  <div class="col-4">
@@ -207,7 +207,7 @@ function criarHtmlBot(texto) {
              <div class="row d-flex">
                  <div class="col-1">
                      <div class="box-imagem">
-                         <img src="assets/img/cacoIcone.png" alt="" />
+                         <img src="cacoIcone.png" alt="" />
                      </div>
                  </div>
                  <div class="col-10">
