@@ -83,8 +83,8 @@
   border: 2px solid #29298C;
   border-radius: 100%;
   cursor: pointer;
-  animation: pulse-animation 1.5s infinite;
-  width: 125px;
+  animation: pulse-animation 2s infinite;
+  width: 150px;
 }
 
 .chat-image {
@@ -92,7 +92,7 @@
   padding-bottom: 25px;
   right: 0;
   position: absolute;
-  bottom: 0;
+  bottom: 250px;
 }
 
 /*Animação pulse caco icone*/

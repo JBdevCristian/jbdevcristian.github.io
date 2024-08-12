@@ -1,14 +1,21 @@
+window.sr = ScrollReveal({ reset: true })
 
-document.addEventListener("DOMContentLoaded", function() { //Pegando informações do caco
-    // Obtendo a referência
-    var gifImage = document.getElementById("caco");
+sr.reveal('.fundos', {duration: 1300})
 
-    // Definindo looping
-    function repeatGif() {
-        // Reiniciando
-        gifImage.src = gifImage.src;
+    function PSS(x) {
+        document.getElementById("BtnPss").className = "btn btn-light mt-3"
     }
 
-    // Definindo a repetição a cada 2.5 segundos
-    setInterval(repeatGif, 2500);
-});
+    function PSSOut(x) {
+
+        document.getElementById("BtnPss").className = "btn btn-dark mt-3"
+    }
+
+    function SSP(x) {
+        document.getElementById("BtnSSP").className = "btn btn-warning mt-3"
+    }
+
+    function SSPOut(x) {
+
+        document.getElementById("BtnSSP").className = "btn btn-dark mt-3"
+    }
