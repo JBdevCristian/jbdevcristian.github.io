@@ -1,0 +1,127 @@
+:root {
+  --main-bg-color: #f1f1f1;
+  --primary-color: #37379c;
+  --white-color: #ffffff;
+  --border-radius: 25px;
+  --shadow: 0px 14px 29px 16px rgba(0, 0, 0, 0.18);
+  --border-color: rgb(190, 190, 190);
+  --highlight-color: #8b25ff;
+  --font-size-small: 14px;
+  --font-size-default: 15px;
+  --font-size-heading: 18px;
+  --point-color: #000000;
+  --size: 2.5px;
+}
+
+* {
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  background-image: url('../img/foundever.png');
+  background-size: 50px;
+  margin-bottom: 90px;
+  background-origin: content-box, padding-box;
+}
+
+.bortaTop, .menuChat {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  width: 100%;
+}
+
+.bortaTop {
+  padding: 5px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  position: sticky;
+  top: 0;
+}
+
+.menuChat {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 15px;
+}
+
+.env {
+  cursor: pointer;
+  color: var(--white-color);
+}
+
+.caixaBot, .caixaUsuario, .caixaCarregamento {
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  padding-right: 40px;
+}
+
+.box-texto, .box-texto-usuario, .box-texto-carregamento {
+  background-color: var(--white-color);
+  padding: 15px;
+  border: 1px solid var(--border-color);
+  border-bottom: 2px solid var(--highlight-color);
+  box-shadow: var(--shadow);
+}
+
+.box-texto {
+  font-size: var(--font-size-default);
+  border-radius: var(--border-radius);
+  border-top-left-radius: 0;
+}
+
+.box-texto-usuario {
+  font-size: var(--font-size-small);
+  border-radius: var(--border-radius);
+  border-top-right-radius: 0;
+}
+
+.box-texto-carregamento {
+  font-size: var(--font-size-default);
+  border-radius: 10px;
+}
+
+.box-texto h5 {
+  font-size: var(--font-size-heading);
+}
+
+.box-imagem img {
+  width: 45px;
+  cursor: pointer;
+}
+
+.imagem1, .imagem2 {
+  width: 250px;
+}
+
+.botoes button {
+  margin-bottom: 7px;
+}
+
+.carregamento {
+  display: flex;
+  align-items: center;
+}
+
+.elementoCarregamento {
+  border-radius: 100%;
+  border: var(--size) solid var(--point-color);
+  margin: calc(var(--size) * 2);
+  animation: preloader 0.6s ease-in-out alternate infinite;
+}
+
+.elementoCarregamento:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.elementoCarregamento:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes preloader {
+  100% {
+    transform: scale(2);
+  }
+}
