@@ -1,0 +1,153 @@
+<script src="https://unpkg.com/scrollreveal"></script>
+<style>
+    /* Seção de Habilidades */
+.skills-section {
+    background-color: rgb(36, 36, 36);
+    padding: 20px 30px;
+    border-radius: 25px;
+    width: auto;
+    margin-bottom: 25px;
+    border-top: 1px solid rgb(109, 109, 109);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.skills-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Cada habilidade */
+.skill {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill:last-child {
+    margin-bottom: 0;
+}
+
+.skill-name {
+    width: 30%;
+    font-size: 14px;
+}
+
+.skill-percent {
+    font-size: 14px;
+}
+
+/* Barra de progresso */
+.skill-bar {
+    flex: 1;
+    height: 8px;
+    background-color: #444;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 10px;
+    position: relative;
+}
+
+.skill-level {
+    height: 100%;
+    background-color: #f39c12;
+    border-radius: 5px 0 0 5px;
+    transition: width 0.5s ease-in-out;
+}
+</style>
+<body>
+    <div class="sobre-mim" id="resumo"> 
+        <div class="ms-3 titulo">
+            <h2 class="">Resumo e experiências</h2>
+            <div class="barra"></div>
+        </div>
+    <div class="container">
+    
+        <div>
+            <div class="resumo-title">
+                <div class="icone-ex"><i class="fa-solid fa-book fa-lg" style="color: #FFD43B;"></i></div>
+                <h4>Educação</h4>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="box">
+                        <h5>Graduação na faculdade Estácio</h5>
+                        <span class="date">Inicio: Março/2024 - Finalização: Junho/2026</span>
+                        <p> Ensino Superior em Análise e desenvolvimento de sistemas </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <div>
+        <div class="resumo-title">
+            <div class="icone-ex"><i class="fa-solid fa-briefcase fa-lg" style="color: #FFD43B;"></i></div>
+            <h4>Experiência</h4>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="box">
+                    <h5>Analista de Integrações de Sistemas - PayPal</h5>
+                    <span class="date">Março/2022 - Atualmente</span>
+                    <p>Realizei testes de integração em sites para assegurar a funcionalidade correta das APIs,
+                        identificando e resolvendo problemas técnicos durante o processo. Prestei suporte técnico direto a
+                        usuários finais e equipes de desenvolvimento na implementação e solução de problemas
+                        relacionados às APIs, garantindo a integração suave com diversas plataformas.</p>
+                </div>
+            </div>
+        
+            <div class="timeline-item">
+                <div class="box">
+                    <h5>Operador de Telemarketing Ativo e Receptivo</h5>
+                    <span class="date">Junho/2020 - Maço/2022</span>
+                    <p>Atendimento ao cliente via telefone e canais digitais, prestando suporte técnico N1. Responsável por
+                        diagnosticar problemas básicos, oferecer soluções rápidas e encaminhar incidentes para níveis
+                        superiores, mantendo a satisfação do cliente. Boa comunicação e foco em resolução ágil.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h3 class="mt-3 mb-3">Minhas Habilidades</h3>
+
+                <div class="skills-section">
+                    <div class="skill">
+                        <span class="skill-name">Web Design</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 80%;"></div>
+                        </div>
+                        <span class="skill-percent">80%</span>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Graphic Design</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 70%;"></div>
+                        </div>
+                        <span class="skill-percent">70%</span>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Branding</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 90%;"></div>
+                        </div>
+                        <span class="skill-percent">90%</span>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">WordPress</span>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 50%;"></div>
+                        </div>
+                        <span class="skill-percent">50%</span>
+                    </div>
+                </div>
+      
+    
+
+    </div>
+</body>
+<script>
+    ScrollReveal().reveal('.position')
+    ScrollReveal().reveal('.resumo-title')
+    ScrollReveal().reveal('.box', {delay: 250, origin: 'right'})
+</script>

@@ -1,0 +1,140 @@
+<script src="https://unpkg.com/scrollreveal"></script>
+<body>
+    <div class="sobre-mim" id="sobre-mim"> 
+        <div class=" ms-3 titulo">
+            <h2 class="">Portfolio</h2>
+            <div class="barra"></div>
+        </div>
+
+        <div class="filtro d-md-none mt-3 mb-2">
+            <select name="" id="">
+                <option value="">--selecione uma categoria--</option>
+                <option value="Todas">Todas</option>
+                <option value="Web Design">Web Design</option>
+                <option value="Aplicações">Aplicações</option>
+                <option value="Desenvolvimento web">Desenvolvimento web</option>
+            </select>
+        </div>
+    
+        <div class="filtro-port d-none d-md-block">
+            <ul>
+                <li>
+                    <a href="#">Todas</a>
+                </li>
+                <li>
+                    <a href="#">Web Design</a>
+                </li>
+                <li>
+                    <a href="#">Aplicações</a>
+                </li>
+                <li>
+                    <a href="#">Desenvolvimento web</a>
+                </li>
+            </ul>
+        </div>
+    
+        <div class="container mt-3">
+            <div class="row">
+
+                <div class="col" data-category="Aplicações">
+                    <div class="bloco-image-container">
+                        <div class="bloco-image">
+                            <img src="./projetos/Caco/caco.jpg" alt="">
+                            <div class="icone-ex1">
+                                <a href="../projetos/caco/index.html" target="_blank">
+                                    <i class="fa-regular fa-eye fa-lg" style="color: #FFD43B;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bloco-text">
+                        <h5>Bot Caco</h5>
+                        <p value="Categoria">Aplicação</p>
+                    </div>
+                </div>
+                
+                <div class="col" data-category="Desenvolvimento web">
+                    <div class="bloco-image-container">
+                        <div class="bloco-image">
+                            <img src="./projetos/laroc/laroc.jpg" alt="">
+                            <div class="icone-ex1">
+                                <a href="../projetos/laroc/index.html" target="_blank">
+                                    <i class="fa-regular fa-eye fa-lg" style="color: #FFD43B;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bloco-text">
+                        <h5>Laroc Pizzaria</h5>
+                        <p value="Categoria">Desenvolvimento Web</p>
+                    </div>
+                </div>
+    
+                <div class="col" data-category="Web Design">
+                    <div class="bloco-image-container" >
+                        <div class="bloco-image">
+                            <img src="./projetos/finans/imagem.png" alt="">
+                            <div class="icone-ex1">
+                                <a href="../projetos/finans/index.html" target="_blank">
+                                    <i class="fa-regular fa-eye fa-lg" style="color: #FFD43B;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bloco-text">
+                        <h5>Finans</h5>
+                        <p value="Categoria">Web Design</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+</body>
+<style>
+    .filtro select {
+        border: 1px solid #464646;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: rgba(43, 43, 43, 0.774);
+        color: #ccc;
+    }
+</style>
+<script>
+    ScrollReveal().reveal('.col', {duration: 500, scale: 0.6})
+
+        // Função para filtrar projetos
+        function filterProjects(category) {
+            const projects = document.querySelectorAll('.col');
+    
+            projects.forEach(project => {
+                const projectCategory = project.getAttribute('data-category');
+                
+                // Mostra ou oculta projetos com base na categoria selecionada
+                if (category === 'Todas' || projectCategory === category) {
+                    project.style.display = 'block';
+                } else {
+                    project.style.display = 'none';
+                }
+            });
+        }
+    
+        // Gerencia o clique nos filtros do menu
+        document.querySelectorAll('.filtro-port ul li a').forEach(filter => {
+            filter.addEventListener('click', (event) => {
+                event.preventDefault(); // Evita comportamento padrão do link
+                const category = event.target.textContent.trim();
+                filterProjects(category);
+            });
+        });
+    
+        // Gerencia o dropdown de filtro para dispositivos móveis
+        document.querySelector('.filtro select').addEventListener('change', (event) => {
+            const category = event.target.value;
+            filterProjects(category);
+        });
+    
+        // Exibe todos os projetos no início
+        filterProjects('Todas');
+
+    
+</script>
